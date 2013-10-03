@@ -9,6 +9,8 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 
+
+
 /* ==========================================================================
    Globales
    ========================================================================== */
@@ -18,23 +20,36 @@
 	margin: 0 auto;
 }
 
+
 .btn {
-		@include inline-block;
-		@include border-radius(8px);
-		padding:5px 20px;
-		margin: 10px 0 100px;
-		font-size:0.938em;
-		color:#FFF;
-		text-decoration:none;
-		background-color:$magenta;
-		text-transform: uppercase;
-
-
-		&:hover {
-			background-color:darken($magenta, 10)
-		}
-
+	@include inline-block;
+	@include border-radius(8px);
+	padding: 4px 20px;
+	margin: 10px 0px;
+	font-size:0.938em;
+	color:#FFF;
+	text-decoration:none;
+	background-color:$magenta;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	&:hover{
+		background:darken($magenta, 10);
 	}
+	&:active{
+		background:darken($magenta,15);
+		top: 2px;
+	}
+
+}
+
+
 .mini {
 		@include border-radius(4px);
 	}
@@ -78,15 +93,21 @@
 			text-transform:uppercase;
 			font-size:0.875em;
 			text-decoration:none;
-			font-family: "helvetica", arial;
+			font-family:$fontFamily;
 
 			a{
 				text-decoration:none;
 				color:#919191;
 			}
+			a:hover{
+				border-bottom: 2px solid #919191;
+				color:darken(#919191, 50);
+			}
 		}
 	}
 }
+
+
 
 /* ==========================================================================
    Works
@@ -94,6 +115,7 @@
 
 #works{
 	text-align: center;
+	padding-bottom:100px;
 
 	p{
 		padding: 8px 50px 0;
@@ -134,38 +156,41 @@
 	h1{
 		color:#FFF;
 		margin-bottom: 60px;
+		font-family:"novecento", Helvetica, arial;
 	}
 
 	ul {
 		margin:0 auto;
 		text-align: center;
 		overflow:hidden;
+		width:780px;
 
 		li {
 			float:left;
 			margin-bottom:5px;
 			text-align:center;
-			width:326px;
+			width:260px;
 
 			h3 {
 				color:#FFF;
 				font-size:1.125em;
 				font-weight:600;
-				font-family:"novecento";
+				font-family:"novecento", Helvetica, arial;
 				padding:20px 0 20px;
 			}
 
 			p {
 				color:#FFF;
-				font-size:0.813em;
-				font-family: "helvetica", arial;
-				font-weight: bold;
+				font-size:0.875em;
+				line-height:100%;
+				font-family:$fontFamily;
 
 			}
 
 			a{
-				font-family: "helvetica", arial;
+				font-family:$fontFamily;
 				font-weight: bold;
+				margin: 20px 0;
 			}
 
 		}
@@ -185,7 +210,7 @@ h1{
 	}
 
 	p{
-		font-family:"helvetica";
+		font-family:$fontFamily;
 		color: #BCBCBC;
 		line-height: 1.8em;
 		font-size: 1em;

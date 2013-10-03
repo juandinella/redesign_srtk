@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 @font-face {
   font-family: 'novecento';
   src: url("../fonts/novecentowide-medium-webfont.eot");
-  src: url("../fonts/novecentowide-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/novecentowide-medium-webfont.woff") format("woff"), url("../fonts/novecentowide-medium-webfont.ttf") format("truetype"), url("../fonts/novecentowide-medium-webfont.svg#novecento") format("svg");
+  src: url("../fonts/novecentowide-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/novecentowide-medium-webfont.woff") format("woff"), url("../fonts/novecentowide-medium-webfont.ttf") format("truetype"), url("../fonts/novecentowide-medium-webfont.svg#novecento_medium") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -78,13 +78,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    Globales
    ========================================================================== */
-/* line 16, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 .wrap {
   width: 980px;
   margin: 0 auto;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 .btn {
   display: -moz-inline-stack;
   display: inline-block;
@@ -97,20 +97,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   border-radius: 8px;
-  padding: 5px 20px;
-  margin: 10px 0 100px;
+  padding: 4px 20px;
+  margin: 10px 0px;
   font-size: 0.938em;
   color: #FFF;
   text-decoration: none;
   background-color: #ff0080;
   text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
-/* line 33, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .btn:hover {
-  background-color: #cc0066;
+  background: #cc0066;
+}
+/* line 45, ../sass/screen.scss */
+.btn:active {
+  background: #b3005a;
+  top: 2px;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .mini {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -122,7 +135,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    Intro
    ========================================================================== */
-/* line 46, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 #intro {
   background-image: -webkit-gradient(radial, 500px 500px, 0, 500px 500px, 900, color-stop(1.11111%, #ffffff), color-stop(100%, #e7e8e9));
   background-image: -webkit-radial-gradient(500px 500px, #ffffff 10px, #e7e8e9 900px);
@@ -132,56 +145,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding-top: 20px;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 #header {
   margin: 0 0 80px 0;
   overflow: hidden;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #logo {
   display: block;
   float: left;
 }
-/* line 61, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 #logo a {
   text-decoration: none;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 #menu {
   padding: 8px 0;
   margin: 0;
 }
-/* line 70, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #menu ul {
   display: block;
   float: right;
   text-align: right;
 }
-/* line 75, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 #menu ul li {
   display: inline;
   margin-left: 20px;
   text-transform: uppercase;
   font-size: 0.875em;
   text-decoration: none;
-  font-family: "helvetica", arial;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-/* line 83, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 #menu ul li a {
   text-decoration: none;
   color: #919191;
+}
+/* line 102, ../sass/screen.scss */
+#menu ul li a:hover {
+  border-bottom: 2px solid #919191;
+  color: #111111;
 }
 
 /* ==========================================================================
    Works
    ========================================================================== */
-/* line 95, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #works {
   text-align: center;
+  padding-bottom: 100px;
 }
-/* line 98, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 #works p {
   padding: 8px 50px 0;
 }
@@ -189,17 +208,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    OpenLab
    ========================================================================== */
-/* line 106, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #openlab {
   padding: 100px 0;
   background-color: #00C9FF;
   text-align: center;
 }
-/* line 111, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #openlab h1 {
   color: #FFF;
 }
-/* line 114, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 #openlab p {
   color: #FFF;
   padding: 8px 50px 0;
@@ -208,7 +227,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    Experiment
    ========================================================================== */
-/* line 122, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 #experiment {
   background-color: #ff0080;
 }
@@ -216,55 +235,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    About
    ========================================================================== */
-/* line 129, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 #about {
   background: #545454;
   padding: 60px 0;
   text-align: center;
 }
-/* line 134, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #about h1 {
   color: #FFF;
   margin-bottom: 60px;
+  font-family: "novecento", Helvetica, arial;
 }
-/* line 139, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 #about ul {
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
+  width: 780px;
 }
-/* line 144, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #about ul li {
   float: left;
   margin-bottom: 5px;
   text-align: center;
-  width: 326px;
+  width: 260px;
 }
-/* line 150, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #about ul li h3 {
   color: #FFF;
   font-size: 1.125em;
   font-weight: 600;
-  font-family: "novecento";
+  font-family: "novecento", Helvetica, arial;
   padding: 20px 0 20px;
 }
-/* line 158, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 #about ul li p {
   color: #FFF;
-  font-size: 0.813em;
-  font-family: "helvetica", arial;
-  font-weight: bold;
+  font-size: 0.875em;
+  line-height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-/* line 166, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #about ul li a {
-  font-family: "helvetica", arial;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
+  margin: 20px 0;
 }
 
 /* ==========================================================================
    Texto
    ========================================================================== */
-/* line 180, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 h1 {
   font-size: 2.4em;
   font-family: 'novecento';
@@ -272,9 +294,9 @@ h1 {
   margin-bottom: 2px;
 }
 
-/* line 187, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 p {
-  font-family: "helvetica";
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #BCBCBC;
   line-height: 1.8em;
   font-size: 1em;
