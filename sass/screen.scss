@@ -35,6 +35,9 @@
 		}
 
 	}
+.mini {
+		@include border-radius(4px);
+	}
 	
 /* ==========================================================================
    Intro
@@ -100,8 +103,8 @@
 /* ==========================================================================
    OpenLab
    ========================================================================== */
-   #openlab{
-   	padding: 100px 0;
+#openlab{
+	padding: 100px 0;
    	background-color: #00C9FF;
    	text-align: center;
 
@@ -112,13 +115,69 @@
    		color:#FFF;
    		padding: 8px 50px 0;
    	}
-   }
+}
+/* ==========================================================================
+   Experiment
+   ========================================================================== */
+#experiment{
+	background-color:$magenta;
+}
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+#about {
+	background:#545454;
+	padding:60px 0 ;
+	text-align: center;
+
+	h1{
+		color:#FFF;
+		margin-bottom: 60px;
+	}
+
+	ul {
+		margin:0 auto;
+		text-align: center;
+		overflow:hidden;
+
+		li {
+			float:left;
+			margin-bottom:5px;
+			text-align:center;
+			width:326px;
+
+			h3 {
+				color:#FFF;
+				font-size:1.125em;
+				font-weight:600;
+				font-family:"novecento";
+				padding:20px 0 20px;
+			}
+
+			p {
+				color:#FFF;
+				font-size:0.813em;
+				font-family: "helvetica", arial;
+				font-weight: bold;
+
+			}
+
+			a{
+				font-family: "helvetica", arial;
+				font-weight: bold;
+			}
+
+		}
+	}
+
+}
 
 /* ==========================================================================
    Texto
    ========================================================================== */
 
-   h1{
+h1{
 	font-size: 2.4em;
 	font-family: 'novecento';
 	color:#878787;
@@ -126,8 +185,8 @@
 	}
 
 	p{
-	font-family:$fontFamily;
-	color: #BCBCBC;
-	line-height: 1.8em;
-	font-family: 1em;
-	}
+		font-family:"helvetica";
+		color: #BCBCBC;
+		line-height: 1.8em;
+		font-size: 1em;
+}
