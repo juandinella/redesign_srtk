@@ -4,3 +4,130 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3";
+
+@import "_variables.scss";
+@import "_mixins.scss";
+
+/* ==========================================================================
+   Globales
+   ========================================================================== */
+
+.wrap{ //Centra el contenido
+	width:980px;
+	margin: 0 auto;
+}
+
+.btn {
+		@include inline-block;
+		@include border-radius(8px);
+		padding:5px 20px;
+		margin: 10px 0 100px;
+		font-size:0.938em;
+		color:#FFF;
+		text-decoration:none;
+		background-color:$magenta;
+		text-transform: uppercase;
+
+
+		&:hover {
+			background-color:darken($magenta, 10)
+		}
+
+	}
+	
+/* ==========================================================================
+   Intro
+   ========================================================================== */
+
+#intro{
+ @include background-image(radial-gradient(500px 500px, #FFF 10px, #E7E8E9 900px));
+ padding-top:20px;
+
+}
+
+#header{
+	margin: 0 0 80px 0;
+	overflow:hidden;
+}
+
+#logo{
+	display:block;
+	float: left;
+
+	a{
+		text-decoration:none;
+	}
+}
+
+#menu{
+	padding:8px 0;
+	margin:0;
+
+	ul{
+		display: block;
+		float: right;
+		text-align: right;
+
+		li{
+			display:inline;
+			margin-left: 20px;
+			text-transform:uppercase;
+			font-size:0.875em;
+			text-decoration:none;
+			font-family: "helvetica", arial;
+
+			a{
+				text-decoration:none;
+				color:#919191;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Works
+   ========================================================================== */
+
+#works{
+	text-align: center;
+
+	p{
+		padding: 8px 50px 0;
+	}
+}
+
+/* ==========================================================================
+   OpenLab
+   ========================================================================== */
+   #openlab{
+   	padding: 100px 0;
+   	background-color: #00C9FF;
+   	text-align: center;
+
+   	h1{
+   		color:#FFF;
+   	}
+   	p{
+   		color:#FFF;
+   		padding: 8px 50px 0;
+   	}
+   }
+
+/* ==========================================================================
+   Texto
+   ========================================================================== */
+
+   h1{
+	font-size: 2.4em;
+	font-family: 'novecento';
+	color:#878787;
+	margin-bottom: 2px;
+	}
+
+	p{
+	font-family:$fontFamily;
+	color: #BCBCBC;
+	line-height: 1.8em;
+	font-family: 1em;
+	}

@@ -66,3 +66,151 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+@font-face {
+  font-family: 'novecento';
+  src: url("../fonts/novecentowide-medium-webfont.eot");
+  src: url("../fonts/novecentowide-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/novecentowide-medium-webfont.woff") format("woff"), url("../fonts/novecentowide-medium-webfont.ttf") format("truetype"), url("../fonts/novecentowide-medium-webfont.svg#novecento") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==========================================================================
+   Globales
+   ========================================================================== */
+/* line 16, ../sass/screen.scss */
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 21, ../sass/screen.scss */
+.btn {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  padding: 5px 20px;
+  margin: 10px 0 100px;
+  font-size: 0.938em;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #ff0080;
+  text-transform: uppercase;
+}
+/* line 33, ../sass/screen.scss */
+.btn:hover {
+  background-color: #cc0066;
+}
+
+/* ==========================================================================
+   Intro
+   ========================================================================== */
+/* line 43, ../sass/screen.scss */
+#intro {
+  background-image: -webkit-gradient(radial, 500px 500px, 0, 500px 500px, 900, color-stop(1.11111%, #ffffff), color-stop(100%, #e7e8e9));
+  background-image: -webkit-radial-gradient(500px 500px, #ffffff 10px, #e7e8e9 900px);
+  background-image: -moz-radial-gradient(500px 500px, #ffffff 10px, #e7e8e9 900px);
+  background-image: -o-radial-gradient(500px 500px, #ffffff 10px, #e7e8e9 900px);
+  background-image: radial-gradient(500px 500px, #ffffff 10px, #e7e8e9 900px);
+  padding-top: 20px;
+}
+
+/* line 49, ../sass/screen.scss */
+#header {
+  margin: 0 0 80px 0;
+  overflow: hidden;
+}
+
+/* line 54, ../sass/screen.scss */
+#logo {
+  display: block;
+  float: left;
+}
+/* line 58, ../sass/screen.scss */
+#logo a {
+  text-decoration: none;
+}
+
+/* line 63, ../sass/screen.scss */
+#menu {
+  padding: 8px 0;
+  margin: 0;
+}
+/* line 67, ../sass/screen.scss */
+#menu ul {
+  display: block;
+  float: right;
+  text-align: right;
+}
+/* line 72, ../sass/screen.scss */
+#menu ul li {
+  display: inline;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  text-decoration: none;
+  font-family: "helvetica", arial;
+}
+/* line 80, ../sass/screen.scss */
+#menu ul li a {
+  text-decoration: none;
+  color: #919191;
+}
+
+/* ==========================================================================
+   Works
+   ========================================================================== */
+/* line 92, ../sass/screen.scss */
+#works {
+  text-align: center;
+}
+/* line 95, ../sass/screen.scss */
+#works p {
+  padding: 8px 50px 0;
+}
+
+/* ==========================================================================
+   OpenLab
+   ========================================================================== */
+/* line 103, ../sass/screen.scss */
+#openlab {
+  padding: 100px 0;
+  background-color: #00C9FF;
+  text-align: center;
+}
+/* line 108, ../sass/screen.scss */
+#openlab h1 {
+  color: #FFF;
+}
+/* line 111, ../sass/screen.scss */
+#openlab p {
+  color: #FFF;
+  padding: 8px 50px 0;
+}
+
+/* ==========================================================================
+   Texto
+   ========================================================================== */
+/* line 121, ../sass/screen.scss */
+h1 {
+  font-size: 2.4em;
+  font-family: 'novecento';
+  color: #878787;
+  margin-bottom: 2px;
+}
+
+/* line 128, ../sass/screen.scss */
+p {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #BCBCBC;
+  line-height: 1.8em;
+  font-family: 1em;
+}
