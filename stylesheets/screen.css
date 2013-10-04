@@ -344,7 +344,7 @@ p {
   float: right;
   margin-top: 10px;
 }
-/* line 261, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 #infouser #icon-name {
   background: #666666 url('../img/../img/name.png?1380838746') center no-repeat;
   height: 40px;
@@ -365,19 +365,19 @@ p {
   border: none;
 }
 
-/* line 283, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 #message {
   float: right;
   width: 530px;
   overflow: hidden;
-  height: 315px;
 }
-/* line 288, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 #message textarea {
   margin-top: 10px;
+  padding: 5px;
   float: right;
-  width: 486px;
-  height: 308px;
+  width: 482px;
+  height: 200px;
   background-color: #D1D1D1;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   border: none;
@@ -389,77 +389,28 @@ p {
 }
 /* line 303, ../sass/screen.scss */
 #message #icon-comment {
-  background: #666666 url('../img/../img/message.png?1380842578') 50% 3% no-repeat;
-  height: 308px;
-  width: 44px;
+  background: #666666 url('../img/../img/message.png?1380842578') 50% 6% no-repeat;
+  height: 200px;
+  width: 48px;
   margin: 10px 0;
   float: left;
   border: none;
 }
 
-/*
-#contact{
-	text-align: center;
-	padding:100px 0;
-
-	p{
-		padding: 10px 80px 10px;
-	}
+/* line 314, ../sass/screen.scss */
+.send {
+  overflow: hidden;
+  float: right;
+  margin-left: 300px;
+  background-color: #666666;
+  padding: 10px 42px;
 }
-
-#contact-form{
-	width: 775px;
-	margin: 0 auto;
-	fieldset{
-		margin: 20px 0 15px;
-		display:inline;
-		input{
-			width: 250px;
-			height:30px;
-			padding: 5px 0 5px 50px;
-			border: none;
-			font-weight: bold;
-			font-size:1.4em;
-
-		}
-	}
+/* line 321, ../sass/screen.scss */
+.send:hover {
+  background: #4d4d4d;
 }
-
-#name{
-	background:#D1D1D1 image-url('../img/name.jpg') left top no-repeat;
-
+/* line 324, ../sass/screen.scss */
+.send:active {
+  background: #404040;
+  top: 2px;
 }
-
-#email{
-	background:#D1D1D1 image-url('../img/mail.jpg') left top no-repeat;
-
-}
-
-#infocontact{
-	float:left;
-	width: 200px;
-}
-#message{
-	float:right;
-}
-
-#comment{
-	background:#D1D1D1 image-url('../img/message.jpg') left top no-repeat;
-	height:180px;
-	padding: 5px 0 5px 50px;
-	border: none;
-	font-weight: bold;
-	font-size:1.2em;
-	width:410px;
-
-}
-
-.send{
-	overflow:hidden;
-	float:right;
-	margin-left:300px;
-	background-color:#666666;
-	padding: 10px 28px;
-	line-height:1em;
-}
-*/
