@@ -221,6 +221,92 @@ h1{
 /* ==========================================================================
    Contact
    ========================================================================== */
+
+#contact{
+	text-align:center;
+	padding: 100px 0;
+	margin-bottom: 300px;
+
+	h1{
+		margin: 20px 0;
+
+	}
+	p{
+		padding: 0 100px;
+		margin-bottom: 30px;
+	}
+}
+
+#contact-form{
+	margin: 0 50px 150px ;
+}
+
+#infouser{
+	width:310px;
+	float: left;
+	overflow:hidden;
+	input{
+		padding-left: 4px;
+		font-size:0.983em;
+		font-weight:bold;
+		width: 265px;
+		height:38px; 
+		border:none;
+		background-color:#D1D1D1;
+		float:right;
+		margin-top:10px;
+	}
+
+
+	#icon-name{
+	background:#666 image-url('../img/name.png') center no-repeat;
+	height:40px;
+	width:40px;
+	margin:10px 0;
+	display:inline-block;
+	float:left;
+	border:none;
+	}
+	#icon-mail{
+		background:#666 image-url('../img/mail.png') center no-repeat;
+		height:40px;
+		width:40px;
+		margin:10px 0;
+		display:inline-block;
+		float:left;
+		border:none;
+
+		
+	}
+}
+
+#message{
+	float:right;
+	width: 530px;
+	textarea{
+		margin-top:10px;
+		float:right;
+		width:480px;
+		height:308px;		
+		background-color:#D1D1D1;
+		font-family:$fontFamily;
+		border:none;
+		font-size:0.983em;
+		font-weight:bold;
+	}
+	#icon-comment{
+		background:#666 image-url('../img/message.png') 50% 3% no-repeat;
+		height:308px;
+		width:44px;
+		margin:10px 0;
+		float:left;
+		border:none;
+
+	}
+}
+
+
+/*
 #contact{
 	text-align: center;
 	padding:100px 0;
@@ -285,3 +371,4 @@ h1{
 	padding: 10px 28px;
 	line-height:1em;
 }
+*/
