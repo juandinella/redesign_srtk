@@ -369,20 +369,25 @@ p {
 #message {
   float: right;
   width: 530px;
+  overflow: hidden;
+  height: 315px;
 }
-/* line 286, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 #message textarea {
   margin-top: 10px;
   float: right;
-  width: 480px;
+  width: 486px;
   height: 308px;
   background-color: #D1D1D1;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   border: none;
   font-size: 0.983em;
   font-weight: bold;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-/* line 297, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 #message #icon-comment {
   background: #666666 url('../img/../img/message.png?1380842578') 50% 3% no-repeat;
   height: 308px;

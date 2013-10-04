@@ -283,17 +283,23 @@ h1{
 #message{
 	float:right;
 	width: 530px;
+	overflow:hidden;
+	height:315px;
 	textarea{
 		margin-top:10px;
 		float:right;
-		width:480px;
+		width:486px;
 		height:308px;		
 		background-color:#D1D1D1;
 		font-family:$fontFamily;
 		border:none;
 		font-size:0.983em;
 		font-weight:bold;
+		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box;    
+		box-sizing: border-box;         
 	}
+
 	#icon-comment{
 		background:#666 image-url('../img/message.png') 50% 3% no-repeat;
 		height:308px;
