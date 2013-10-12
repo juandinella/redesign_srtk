@@ -6,9 +6,9 @@
 @import "compass/reset";
 @import "compass/css3";
 
-@import "_variables.scss";
-@import "_mixins.scss";
-
+@import "_variables";
+@import "_mixins";
+@import "_responsive";
 
 
 /* ==========================================================================
@@ -79,7 +79,6 @@ h1{
 #intro{
 	@include background-image(radial-gradient(500px 500px, #FFF 10px, #E7E8E9 900px));
 	padding-top:20px;
-
 }
 
 #header{
@@ -93,17 +92,18 @@ h1{
 
 	a{
 		text-decoration:none;
+
 	}
 }
 
 #menu{
-	padding:8px 0;
+	padding:15px 0;
 	margin:0;
+	float:right;
+	text-align:right;
 
 	ul{
 		display: block;
-		float: right;
-		text-align: right;
 
 		li{
 			display:inline;
@@ -162,8 +162,54 @@ h1{
 
 #experiment{
 	background-color:$magenta;
+	height:400px;
 }
 
+#miCanvas{
+	position: absolute;
+}
+
+#textocanvas{
+	position:relative;
+	text-align:center;
+    z-index: 2;
+    padding: 100px 0;
+
+    h1{
+    	color:#FFF;
+    }
+    p{
+    	color:#FFF;
+    	padding: 8px 50px 0;
+    }
+}
+
+.btnexp{
+	@include inline-block;
+	@include border-radius(8px);
+	padding: 4px 20px;
+	margin: 10px 0px;
+	font-size:0.938em;
+	color:#545454;
+	text-decoration:none;
+	background-color:#FFF;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	&:hover{
+		background:#CCC;
+	}
+	&:active{
+		background:darken(#CCC,15);
+		top: 2px;
+	}
+}
 /* ==========================================================================
    About
    ========================================================================== */
@@ -307,6 +353,7 @@ h1{
 		margin:10px 0;
 		float:left;
 		border:none;
+		
 
 	}
 }

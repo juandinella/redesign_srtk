@@ -5,6 +5,10 @@
 	<title>Surattack</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+
+   <script src="js/animation.js"></script>
+   <script src="js/pool.js"></script>
+
 </head>
 <body>
 	<section id="intro">
@@ -31,18 +35,21 @@
            	</div>
 		</div>
    </section>  
-   <section id="openlab" class="smoothScroll">
+   <section id="openlab">
       <div class="wrap">
          <h1>We Love Share</h1>
          <p class="info">We are an active investigation medialab. We use new technologies to generate poetic spaces that confront magic with science. Just in the experimentation process we realize that they are plenty things to be created yet.</p> 
          <p><a class="btn" href="#">See Our OpenLab</a></p>      
       </div>     
    </section>	
-   <section id="experiment" class="smoothScroll">
+   <section id="experiment">
       <div class="wrap">
-         <canvas height="400">
-            
-         </canvas>
+         <canvas id="miCanvas" width="900" height="400"></canvas>
+         <div id="textocanvas">
+            <h1>We Experiment</h1>
+            <p>We are an active investigation medialab. We use new technologies to generate poetic spaces that confront magic with science. Just in the experimentation process we realize that they are plenty things to be created yet.</p> 
+            <p><a class="btnexp" href="#">See our Experiments</a></p>   
+         </div> 
       </div>
    </section>
    <section id="about">
