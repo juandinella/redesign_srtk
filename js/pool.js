@@ -31,6 +31,11 @@ window.onload = function(){
       drawStuff(); 
     }
 
+    // prevent elastic scrolling
+document.body.addEventListener('touchmove',function(event){
+  event.preventDefault();
+},false);	// end body:touchmove
+
 function drawStuff() {
 
 	//miBurbuja = new Burbuja(anim,canvas.width/2,canvas.height,100);
