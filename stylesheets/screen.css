@@ -255,26 +255,27 @@ p {
 /* line 169, ../sass/screen.scss */
 #miCanvas {
   position: absolute;
+  display: block;
 }
 
-/* line 173, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #textocanvas {
   position: relative;
   text-align: center;
   z-index: 2;
   padding: 100px 0;
 }
-/* line 179, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 #textocanvas h1 {
   color: #FFF;
 }
-/* line 182, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #textocanvas p {
   color: #FFF;
   padding: 8px 50px 0;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .btnexp {
   display: -moz-inline-stack;
   display: inline-block;
@@ -303,11 +304,11 @@ p {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 206, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .btnexp:hover {
   background: #CCC;
 }
-/* line 209, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .btnexp:active {
   background: #a6a6a6;
   top: 2px;
@@ -316,33 +317,33 @@ p {
 /* ==========================================================================
    About
    ========================================================================== */
-/* line 219, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 #about {
   background: #545454;
   padding: 60px 0;
   text-align: center;
 }
-/* line 224, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 #about h1 {
   color: #FFF;
   margin-bottom: 60px;
   font-family: "novecento", Helvetica, arial;
 }
-/* line 230, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 #about ul {
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
   width: 780px;
 }
-/* line 236, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 #about ul li {
   float: left;
   margin-bottom: 5px;
   text-align: center;
   width: 260px;
 }
-/* line 242, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #about ul li h3 {
   color: #FFF;
   font-size: 1.125em;
@@ -350,14 +351,14 @@ p {
   font-family: "novecento", Helvetica, arial;
   padding: 20px 0 20px;
 }
-/* line 250, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 #about ul li p {
   color: #FFF;
   font-size: 0.875em;
   line-height: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-/* line 258, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 #about ul li a {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
@@ -367,34 +368,34 @@ p {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 273, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 #contact {
   text-align: center;
   padding: 100px 0;
   margin-bottom: 300px;
 }
-/* line 278, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 #contact h1 {
   margin: 20px 0;
 }
-/* line 283, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 #contact p {
   padding: 0 100px;
   margin-bottom: 30px;
 }
 
-/* line 289, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 #contact-form {
   margin: 0 50px 150px;
 }
 
-/* line 293, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 #infouser {
   width: 310px;
   float: left;
   overflow: hidden;
 }
-/* line 298, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 #infouser input {
   padding-left: 4px;
   font-size: 0.983em;
@@ -406,9 +407,9 @@ p {
   float: right;
   margin-top: 10px;
 }
-/* line 310, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 #infouser #icon-name {
-  background: #666666 url('../img/../img/name.png?1380838746') center no-repeat;
+  background: #666666 url('../img/../img/name.png?1381685993') center no-repeat;
   height: 40px;
   width: 40px;
   margin: 10px 0;
@@ -416,9 +417,9 @@ p {
   float: left;
   border: none;
 }
-/* line 320, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 #infouser #icon-mail {
-  background: #666666 url('../img/../img/mail.png?1380842375') center no-repeat;
+  background: #666666 url('../img/../img/mail.png?1381685993') center no-repeat;
   height: 40px;
   width: 40px;
   margin: 10px 0;
@@ -427,13 +428,13 @@ p {
   border: none;
 }
 
-/* line 332, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 #message {
   float: right;
   width: 530px;
   overflow: hidden;
 }
-/* line 337, ../sass/screen.scss */
+/* line 339, ../sass/screen.scss */
 #message textarea {
   margin-top: 10px;
   padding: 5px;
@@ -449,9 +450,9 @@ p {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 353, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 #message #icon-comment {
-  background: #666666 url('../img/../img/message.png?1380842578') 50% 6% no-repeat;
+  background: #666666 url('../img/../img/message.png?1381685993') 50% 6% no-repeat;
   height: 200px;
   width: 48px;
   margin: 10px 0;
@@ -459,7 +460,7 @@ p {
   border: none;
 }
 
-/* line 365, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 .send {
   overflow: hidden;
   float: right;
@@ -467,11 +468,11 @@ p {
   background-color: #666666;
   padding: 10px 42px;
 }
-/* line 372, ../sass/screen.scss */
+/* line 374, ../sass/screen.scss */
 .send:hover {
   background: #4d4d4d;
 }
-/* line 376, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 .send:active {
   background: #404040;
   top: 2px;
@@ -483,53 +484,78 @@ p {
     width: auto;
   }
 
-  /* line 5, ../sass/_responsive.scss */
+  /* line 6, ../sass/_responsive.scss */
   #logo {
     padding: 0  0 0 15px;
   }
 
-  /* line 9, ../sass/_responsive.scss */
+  /* line 10, ../sass/_responsive.scss */
   #menu {
     padding: 15px 15px 0 0;
   }
 
-  /* line 12, ../sass/_responsive.scss */
-  #about h1 {
-    padding: 0 15px;
-  }
-}
-@media screen and (max-width: 720px) {
-  /* line 20, ../sass/_responsive.scss */
-  #about ul {
-    width: auto;
-  }
-  /* line 23, ../sass/_responsive.scss */
+  /* line 16, ../sass/_responsive.scss */
   #about ul li {
     width: 33%;
   }
+  /* line 20, ../sass/_responsive.scss */
+  #about ul h1 {
+    padding: 0 15px;
+  }
 }
-@media screen and (max-width: 480px) {
-  /* line 30, ../sass/_responsive.scss */
+@media screen and (max-width: 768px) {
+  /* line 28, ../sass/_responsive.scss */
   #logo {
-    float: none;
     margin: 0 auto;
-    width: 50%;
+    text-align: center;
+    float: none;
   }
 
-  /* line 36, ../sass/_responsive.scss */
+  /* line 34, ../sass/_responsive.scss */
+  #menu {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* line 41, ../sass/_responsive.scss */
+  #works {
+    padding-top: 0px;
+  }
+
+  /* line 45, ../sass/_responsive.scss */
+  #about ul {
+    width: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 54, ../sass/_responsive.scss */
   #menu {
     float: none;
     margin: 15px auto 0;
     width: 380px;
   }
 
-  /* line 42, ../sass/_responsive.scss */
+  /* line 60, ../sass/_responsive.scss */
   #header {
     margin-bottom: 60px;
   }
 
-  /* line 46, ../sass/_responsive.scss */
+  /* line 64, ../sass/_responsive.scss */
   #openlab, #textocanvas {
     padding-top: 80px;
+  }
+
+  /* line 68, ../sass/_responsive.scss */
+  #about ul li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* line 75, ../sass/_responsive.scss */
+  #about ul li {
+    width: auto;
+    float: none;
   }
 }

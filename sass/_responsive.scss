@@ -2,6 +2,7 @@
 	.wrap{
 		width: auto;
 	}
+
 	#logo{
 		padding: 0  0 0 15px;
 	}
@@ -9,30 +10,47 @@
 	#menu{
 		padding: 15px 15px 0 0;
 	}
-	#about h1{
-		padding: 0 15px;
-	}
 
-
-}
-
-@media screen and (max-width:720px){
 	#about ul{
-		width: auto;
 
 		li{
-			width:33%;
+			width: 33%;
+		}
+
+		h1{
+			padding: 0 15px;
 		}
 	}
 }
 
-@media screen and (max-width:480px){
+
+@media screen and (max-width:768px){
 	#logo{
-		float:none;
 		margin: 0 auto;
-		width: 50%;
+		text-align: center;
+		float: none
 	}
+
+	#menu{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#works{
+		padding-top: 0px;
+	}
+
+	#about ul{
+		width: auto;
+	}
+
 	
+
+}
+
+@media screen and (max-width:480px){	
 	#menu{
 		float: none;
 		margin: 15px auto 0;
@@ -46,4 +64,17 @@
 	#openlab, #textocanvas{
 		padding-top: 80px;
 	}
+
+	#about ul li{
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width:360px){
+	#about ul li{
+		width: auto;
+		float: none
+	}
+
 }
