@@ -21,6 +21,24 @@
 			padding: 0 15px;
 		}
 	}
+	#contact-form{
+		float: none;
+		width: auto;
+	}
+	#message{
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+
+	}
+	#infouser{
+		float: none;
+		margin: 0 auto;
+	}
+	.send{
+		margin-left:80px;
+		float: none;
+	}
 }
 
 
@@ -36,6 +54,7 @@
 		margin: 0 auto;
 		text-align: center;
 		padding-top: 20px;
+		background-color: red;
 	}
 
 	#works{
@@ -44,9 +63,7 @@
 
 	#about ul{
 		width: auto;
-	}
-
-	
+	}	
 
 }
 
@@ -55,6 +72,7 @@
 		float: none;
 		margin: 15px auto 0;
 		width: 380px;
+		background-color: blue;
 	}
 
 	#header{
@@ -68,7 +86,18 @@
 	#about ul li{
 		width: 50%;
 	}
+	#message{
+		width: 312px;
 
+		#comment{
+			float: left;
+			width: 260px;
+		}
+	}
+	.send{
+		float: right;
+		margin-right: 25px; 
+	}
 }
 
 @media screen and (max-width:360px){
