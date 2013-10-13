@@ -16,6 +16,7 @@
 			this.py -= linearDistEachFrame*this.speed;
 		}else{
 			this.py = canvas.height+this.tam;
+			this.px = Math.random()*canvas.width;
 		}
 
 		//Dibujar el circulo
