@@ -1,0 +1,49 @@
+@media screen and (max-width:999px){
+	.wrap{
+		width: auto;
+	}
+	#logo{
+		padding: 0  0 0 15px;
+	}
+
+	#menu{
+		padding: 15px 15px 0 0;
+	}
+	#about h1{
+		padding: 0 15px;
+	}
+
+
+}
+
+@media screen and (max-width:720px){
+	#about ul{
+		width: auto;
+
+		li{
+			width:33%;
+		}
+	}
+}
+
+@media screen and (max-width:480px){
+	#logo{
+		float:none;
+		margin: 0 auto;
+		width: 50%;
+	}
+	
+	#menu{
+		float: none;
+		margin: 15px auto 0;
+		width: 380px;
+	}
+
+	#header{
+		margin-bottom: 60px;
+	}
+
+	#openlab, #textocanvas{
+		padding-top: 80px;
+	}
+}

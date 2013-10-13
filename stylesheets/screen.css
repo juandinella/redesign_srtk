@@ -476,3 +476,60 @@ p {
   background: #404040;
   top: 2px;
 }
+
+@media screen and (max-width: 999px) {
+  /* line 2, ../sass/_responsive.scss */
+  .wrap {
+    width: auto;
+  }
+
+  /* line 5, ../sass/_responsive.scss */
+  #logo {
+    padding: 0  0 0 15px;
+  }
+
+  /* line 9, ../sass/_responsive.scss */
+  #menu {
+    padding: 15px 15px 0 0;
+  }
+
+  /* line 12, ../sass/_responsive.scss */
+  #about h1 {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 20, ../sass/_responsive.scss */
+  #about ul {
+    width: auto;
+  }
+  /* line 23, ../sass/_responsive.scss */
+  #about ul li {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 30, ../sass/_responsive.scss */
+  #logo {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  /* line 36, ../sass/_responsive.scss */
+  #menu {
+    float: none;
+    margin: 15px auto 0;
+    width: 380px;
+  }
+
+  /* line 42, ../sass/_responsive.scss */
+  #header {
+    margin-bottom: 60px;
+  }
+
+  /* line 46, ../sass/_responsive.scss */
+  #openlab, #textocanvas {
+    padding-top: 80px;
+  }
+}

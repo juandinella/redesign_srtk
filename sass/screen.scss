@@ -6,7 +6,7 @@
 @import "compass/reset";
 @import "compass/css3";
 
-@import "_responsive";
+
 @import "_variables";
 @import "_mixins";
 
@@ -378,3 +378,5 @@ p{
 		top: 2px;
 	}
 }
+
+@import "_responsive";
