@@ -31,10 +31,7 @@ window.onload = function(){
       drawStuff(); 
     }
 
-    // prevent elastic scrolling
-document.body.addEventListener('touchmove',function(event){
-  event.preventDefault();
-},false);	// end body:touchmove
+
 
 function drawStuff() {
 
