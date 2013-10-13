@@ -6,9 +6,10 @@
 @import "compass/reset";
 @import "compass/css3";
 
+@import "_responsive";
 @import "_variables";
 @import "_mixins";
-@import "_responsive";
+
 
 
 /* ==========================================================================
@@ -19,7 +20,6 @@
 	width:980px;
 	margin: 0 auto;
 }
-
 
 .btn {
 	@include inline-block;
@@ -39,9 +39,11 @@
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
+
 	&:hover{
 		background:darken($magenta, 10);
 	}
+
 	&:active{
 		background:darken($magenta,15);
 		top: 2px;
@@ -49,7 +51,7 @@
 
 }
 
-.mini {
+.mini { //Botones 'Say Hello To My Little Nerds'
 		@include border-radius(3px);
 }
 
@@ -62,13 +64,13 @@ h1{
 	font-family: 'novecento';
 	color:#878787;
 	margin-bottom: 2px;
-	}
+}
 
-	p{
-		font-family:$fontFamily;
-		color: #BCBCBC;
-		line-height: 1.8em;
-		font-size: 1em;
+p{
+	font-family:$fontFamily;
+	color: #BCBCBC;
+	line-height: 1.8em;
+	font-size: 1em;
 }
 
 	
@@ -124,7 +126,6 @@ h1{
 		}
 	}
 }
-
 
 
 /* ==========================================================================
@@ -210,6 +211,7 @@ h1{
 		top: 2px;
 	}
 }
+
 /* ==========================================================================
    About
    ========================================================================== */
@@ -277,6 +279,7 @@ h1{
 		margin: 20px 0;
 
 	}
+
 	p{
 		padding: 0 100px;
 		margin-bottom: 30px;
@@ -291,6 +294,7 @@ h1{
 	width:310px;
 	float: left;
 	overflow:hidden;
+
 	input{
 		padding-left: 4px;
 		font-size:0.983em;
@@ -365,9 +369,10 @@ h1{
    background-color:#666666;
    padding: 10px 42px;
 
-   &:hover{
+	&:hover{
 		background:darken(#666666, 10);
 	}
+
 	&:active{
 		background:darken(#666666,15);
 		top: 2px;
