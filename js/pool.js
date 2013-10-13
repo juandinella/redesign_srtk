@@ -1,46 +1,68 @@
 window.onload = function(){
-	var anim = new Animation("miCanvas");
-	var canvas = anim.getCanvas();
-	var context = anim.getContext();
+	/*----------------------------------------------------
+		Variables
+		-----------------------------------------------------*/
+		var anim = new Animation("miCanvas");
+		var canvas = anim.getCanvas();
+		var context = anim.getContext();
+		var linearSpeed = 50;	
+		var burbujas = new Array();
+		var cantidadBurbujas = 10;
 
 
-	var linearSpeed = 100;
-
-	var bubble = {
-		x: canvas.width/2,
-		y: canvas.height,
-		radius: 100
-	};
+		window.addEventListener('resize', resizeCanvas, false);
 
 
-	anim.setStage(function(){
-
-		//Update
-		var linearDistEachFrame = linearSpeed * this.getTimeInterval() / 1000;
 
 
-		bubble.y -= linearDistEachFrame*1;
 
-		if (bubble.y<0-bubble.radius) {
-			bubble.y = canvas.height+bubble.radius;
-		}
+
+    
+
+	//Funciones para el random
+	function getRandomArbitary (min, max) {
+		return Math.random() * (max - min) + min;
+	}
+
+
+		function resizeCanvas() {
+			//canvas.width = window.innerWidth;
+			canvas.width = $("#experiment").width();
+      drawStuff(); 
+    }
+
+function drawStuff() {
+
+	//miBurbuja = new Burbuja(anim,canvas.width/2,canvas.height,100);
+	/*----------------------------------------------------
+		Anim Stage
+		-----------------------------------------------------*/
+		anim.setStage(function(){
+
 
 		
-		//clear
+		//Update
+		var linearDistEachFrame = linearSpeed * this.getTimeInterval() / 1000;
+		//Clear
 		this.clear();
 
-		//Termina de dibujar la caja
-		context.beginPath();
-		context.fillStyle = "#DB0F7F";
-		context.arc(bubble.x,bubble.y,bubble.radius,0,Math.PI*2,false);
-		context.fill();
-		context.closePath();
+		for (var i = 0; i < cantidadBurbujas-1; i++) {
+			burbujas.push(new Burbuja(anim,Math.floor(Math.random() * canvas.width),canvas.height,getRandomArbitary(10,100),getRandomArbitary(2,6)));
+		}
+
+		for (var i = 0; i < cantidadBurbujas-1; i++) {
+			var estaburbuja = burbujas[i];
+			estaburbuja.draw(linearDistEachFrame);
+		};
+
+
+
+
 
 	});
+		/*-----------------------------------------------------*/
+		anim.start();
 
-
-	anim.start();
-
-
-
-}
+	};
+resizeCanvas();
+	};

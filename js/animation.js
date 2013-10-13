@@ -6,6 +6,7 @@ var Animation = function(canvasId){
 	//Setea el contexto de ese canvas a 2D
 	this.context = this.canvas.getContext("2d");
 
+
 	//Este es el conjunto de variables que manipula la animación
 	this.t = 0;
 	this.timeInterval = 0;
