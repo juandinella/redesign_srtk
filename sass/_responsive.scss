@@ -54,7 +54,6 @@
 		margin: 0 auto;
 		text-align: center;
 		padding-top: 20px;
-		background-color: red;
 	}
 
 	#works{
@@ -72,7 +71,6 @@
 		float: none;
 		margin: 15px auto 0;
 		width: 380px;
-		background-color: blue;
 	}
 
 	#header{
@@ -91,7 +89,10 @@
 
 		#comment{
 			float: left;
-			width: 260px;
+			width: 268px;
+		}
+		#icon-comment{
+			width: 42px;
 		}
 	}
 	.send{

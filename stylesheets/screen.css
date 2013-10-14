@@ -357,8 +357,9 @@ p {
   font-size: 0.875em;
   line-height: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0 3px;
 }
-/* line 260, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 #about ul li a {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
@@ -368,34 +369,34 @@ p {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 #contact {
   text-align: center;
   padding: 100px 0;
   margin-bottom: 300px;
 }
-/* line 280, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #contact h1 {
   margin: 20px 0;
 }
-/* line 285, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 #contact p {
   padding: 0 100px;
   margin-bottom: 30px;
 }
 
-/* line 291, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 #contact-form {
   margin: 0 50px 150px;
 }
 
-/* line 295, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 #infouser {
   width: 310px;
   float: left;
   overflow: hidden;
 }
-/* line 300, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 #infouser input {
   padding-left: 4px;
   font-size: 0.983em;
@@ -407,7 +408,7 @@ p {
   float: right;
   margin-top: 10px;
 }
-/* line 312, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 #infouser #icon-name {
   background: #666666 url('../img/../img/name.png?1381685993') center no-repeat;
   height: 40px;
@@ -417,7 +418,7 @@ p {
   float: left;
   border: none;
 }
-/* line 322, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 #infouser #icon-mail {
   background: #666666 url('../img/../img/mail.png?1381685993') center no-repeat;
   height: 40px;
@@ -428,13 +429,13 @@ p {
   border: none;
 }
 
-/* line 334, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 #message {
   float: right;
   width: 530px;
   overflow: hidden;
 }
-/* line 339, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 #message textarea {
   margin-top: 10px;
   padding: 5px;
@@ -450,7 +451,7 @@ p {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 356, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 #message #icon-comment {
   background: #666666 url('../img/../img/message.png?1381685993') 50% 6% no-repeat;
   height: 200px;
@@ -460,7 +461,7 @@ p {
   border: none;
 }
 
-/* line 368, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 .send {
   overflow: hidden;
   float: right;
@@ -468,11 +469,11 @@ p {
   background-color: #666666;
   padding: 10px 42px;
 }
-/* line 375, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .send:hover {
   background: #4d4d4d;
 }
-/* line 379, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .send:active {
   background: #404040;
   top: 2px;
@@ -542,61 +543,63 @@ p {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-    background-color: red;
   }
 
-  /* line 60, ../sass/_responsive.scss */
+  /* line 59, ../sass/_responsive.scss */
   #works {
     padding-top: 0px;
   }
 
-  /* line 64, ../sass/_responsive.scss */
+  /* line 63, ../sass/_responsive.scss */
   #about ul {
     width: auto;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 71, ../sass/_responsive.scss */
+  /* line 70, ../sass/_responsive.scss */
   #menu {
     float: none;
     margin: 15px auto 0;
     width: 380px;
-    background-color: blue;
   }
 
-  /* line 78, ../sass/_responsive.scss */
+  /* line 76, ../sass/_responsive.scss */
   #header {
     margin-bottom: 60px;
   }
 
-  /* line 82, ../sass/_responsive.scss */
+  /* line 80, ../sass/_responsive.scss */
   #openlab, #textocanvas {
     padding-top: 80px;
   }
 
-  /* line 86, ../sass/_responsive.scss */
+  /* line 84, ../sass/_responsive.scss */
   #about ul li {
     width: 50%;
   }
 
-  /* line 89, ../sass/_responsive.scss */
+  /* line 87, ../sass/_responsive.scss */
   #message {
     width: 312px;
   }
-  /* line 92, ../sass/_responsive.scss */
+  /* line 90, ../sass/_responsive.scss */
   #message #comment {
     float: left;
-    width: 260px;
+    width: 268px;
+  }
+  /* line 94, ../sass/_responsive.scss */
+  #message #icon-comment {
+    width: 42px;
   }
 
-  /* line 97, ../sass/_responsive.scss */
+  /* line 98, ../sass/_responsive.scss */
   .send {
     float: right;
     margin-right: 25px;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 104, ../sass/_responsive.scss */
+  /* line 105, ../sass/_responsive.scss */
   #about ul li {
     width: auto;
     float: none;
