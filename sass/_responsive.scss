@@ -21,24 +21,25 @@
 			padding: 0 15px;
 		}
 	}
+
 	#contact-form{
-		float: none;
-		width: auto;
+		width: 90%;
 	}
 	#message{
+		width: auto;
 		float: none;
-		text-align: center;
-		margin: 0 auto;
-
-	}
-	#infouser{
-		float: none;
-		margin: 0 auto;
+		padding-left: 15px;
+		#comment{
+			width: 85%;
+		}
 	}
 	.send{
-		margin-left:80px;
-		float: none;
+		margin-right: 3%;
 	}
+	#pagination{
+		padding: 0 20px;
+	}
+	
 }
 
 
@@ -62,9 +63,32 @@
 
 	#about ul{
 		width: auto;
+	}
+	#contact-form{
+		float: none;
+		width: auto;
+	}
+	#message{
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: auto;
+
+	}
+	#infouser{
+		float: none;
+		margin: 0 auto;
+	}
+	.send{
+		margin-right: 7%;
+		float: right;
 	}	
 
+	
+
 }
+
+
 
 @media screen and (max-width:480px){	
 	#menu{
@@ -85,7 +109,7 @@
 		width: 50%;
 	}
 	#message{
-		width: 312px;
+		width: 325px;
 
 		#comment{
 			float: left;

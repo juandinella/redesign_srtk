@@ -465,7 +465,7 @@ p {
 .send {
   overflow: hidden;
   float: right;
-  margin-left: 300px;
+  clear: both;
   background-color: #666666;
   padding: 10px 42px;
 }
@@ -589,40 +589,41 @@ header #tags ul li a:hover {
     padding: 0 15px;
   }
 
-  /* line 24, ../sass/_responsive.scss */
+  /* line 25, ../sass/_responsive.scss */
   #contact-form {
-    float: none;
-    width: auto;
+    width: 90%;
   }
 
   /* line 28, ../sass/_responsive.scss */
   #message {
+    width: auto;
     float: none;
-    text-align: center;
-    margin: 0 auto;
+    padding-left: 15px;
+  }
+  /* line 32, ../sass/_responsive.scss */
+  #message #comment {
+    width: 85%;
   }
 
-  /* line 34, ../sass/_responsive.scss */
-  #infouser {
-    float: none;
-    margin: 0 auto;
-  }
-
-  /* line 38, ../sass/_responsive.scss */
+  /* line 36, ../sass/_responsive.scss */
   .send {
-    margin-left: 80px;
-    float: none;
+    margin-right: 3%;
+  }
+
+  /* line 39, ../sass/_responsive.scss */
+  #pagination {
+    padding: 0 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 46, ../sass/_responsive.scss */
+  /* line 47, ../sass/_responsive.scss */
   #logo {
     margin: 0 auto;
     text-align: center;
     float: none;
   }
 
-  /* line 52, ../sass/_responsive.scss */
+  /* line 53, ../sass/_responsive.scss */
   #menu {
     float: none;
     margin: 0 auto;
@@ -630,61 +631,87 @@ header #tags ul li a:hover {
     padding-top: 20px;
   }
 
-  /* line 59, ../sass/_responsive.scss */
+  /* line 60, ../sass/_responsive.scss */
   #works {
     padding-top: 0px;
   }
 
-  /* line 63, ../sass/_responsive.scss */
+  /* line 64, ../sass/_responsive.scss */
   #about ul {
     width: auto;
   }
+
+  /* line 67, ../sass/_responsive.scss */
+  #contact-form {
+    float: none;
+    width: auto;
+  }
+
+  /* line 71, ../sass/_responsive.scss */
+  #message {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  /* line 78, ../sass/_responsive.scss */
+  #infouser {
+    float: none;
+    margin: 0 auto;
+  }
+
+  /* line 82, ../sass/_responsive.scss */
+  .send {
+    margin-right: 7%;
+    float: right;
+  }
 }
 @media screen and (max-width: 480px) {
-  /* line 70, ../sass/_responsive.scss */
+  /* line 94, ../sass/_responsive.scss */
   #menu {
     float: none;
     margin: 15px auto 0;
     width: 380px;
   }
 
-  /* line 76, ../sass/_responsive.scss */
+  /* line 100, ../sass/_responsive.scss */
   #header {
     margin-bottom: 60px;
   }
 
-  /* line 80, ../sass/_responsive.scss */
+  /* line 104, ../sass/_responsive.scss */
   #openlab, #textocanvas {
     padding-top: 80px;
   }
 
-  /* line 84, ../sass/_responsive.scss */
+  /* line 108, ../sass/_responsive.scss */
   #about ul li {
     width: 50%;
   }
 
-  /* line 87, ../sass/_responsive.scss */
+  /* line 111, ../sass/_responsive.scss */
   #message {
-    width: 312px;
+    width: 325px;
   }
-  /* line 90, ../sass/_responsive.scss */
+  /* line 114, ../sass/_responsive.scss */
   #message #comment {
     float: left;
     width: 268px;
   }
-  /* line 94, ../sass/_responsive.scss */
+  /* line 118, ../sass/_responsive.scss */
   #message #icon-comment {
     width: 42px;
   }
 
-  /* line 98, ../sass/_responsive.scss */
+  /* line 122, ../sass/_responsive.scss */
   .send {
     float: right;
     margin-right: 25px;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 105, ../sass/_responsive.scss */
+  /* line 129, ../sass/_responsive.scss */
   #about ul li {
     width: auto;
     float: none;
