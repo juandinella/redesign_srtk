@@ -655,7 +655,7 @@ header #tags ul li a:hover {
     float: none;
     text-align: center;
     margin: 0 auto;
-    width: auto;
+    width: 80%;
   }
 
   /* line 77, ../sass/_responsive.scss */
@@ -666,7 +666,7 @@ header #tags ul li a:hover {
 
   /* line 81, ../sass/_responsive.scss */
   .send {
-    margin-right: 7%;
+    margin-right: 13%;
     float: right;
   }
 }
