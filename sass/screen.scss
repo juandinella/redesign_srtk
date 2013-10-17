@@ -304,11 +304,14 @@ p{
 		font-size:0.983em;
 		font-weight:bold;
 		width: 265px;
-		height:38px; 
+		height:40px; 
 		border:none;
 		background-color:#D1D1D1;
-		float:right;
+		float:left;
 		margin-top:10px;
+		-webkit-box-sizing: border-box;
+  		-moz-box-sizing: border-box;
+  		box-sizing: border-box;
 	}
 
 	#icon-name{

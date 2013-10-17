@@ -93,7 +93,6 @@
 		float: none;
 		margin: 15px auto 0;
 		width: 380px;
-		background-color: blue;
 	}
 
 	#header{
@@ -130,10 +129,6 @@
 }
 
 @media screen and (max-width:360px){
-	#menu{
-		background-color:red;
-	}
-
 	#about ul li{
 		width: auto;
 		float: none
