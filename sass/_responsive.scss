@@ -66,7 +66,6 @@
 	}
 	#contact-form{
 		float: none;
-		width: auto;
 	}
 	#message{
 		float: none;
@@ -89,12 +88,12 @@
 }
 
 
-
 @media screen and (max-width:480px){	
 	#menu{
 		float: none;
 		margin: 15px auto 0;
 		width: 380px;
+		background-color: blue;
 	}
 
 	#header{
@@ -121,11 +120,20 @@
 	}
 	.send{
 		float: right;
-		margin-right: 25px; 
+		margin-right: 12%; 
+	}
+
+	#works, #openlab, #experiment, #about, #contact h1{
+		padding-left: 4px;
+		padding-right: 4px;
 	}
 }
 
 @media screen and (max-width:360px){
+	#menu{
+		background-color:red;
+	}
+
 	#about ul li{
 		width: auto;
 		float: none

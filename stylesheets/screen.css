@@ -249,33 +249,32 @@ p {
 /* line 164, ../sass/screen.scss */
 #experiment {
   background-color: #ff0080;
-  height: 400px;
 }
 
-/* line 169, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #miCanvas {
   position: absolute;
   display: block;
 }
 
-/* line 175, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #textocanvas {
   position: relative;
   text-align: center;
   z-index: 2;
   padding: 100px 0;
 }
-/* line 181, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #textocanvas h1 {
   color: #FFF;
 }
-/* line 184, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 #textocanvas p {
   color: #FFF;
   padding: 8px 50px 0;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .btnexp {
   display: -moz-inline-stack;
   display: inline-block;
@@ -304,11 +303,11 @@ p {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 208, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .btnexp:hover {
   background: #CCC;
 }
-/* line 211, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .btnexp:active {
   background: #a6a6a6;
   top: 2px;
@@ -317,17 +316,18 @@ p {
 /* ==========================================================================
    About
    ========================================================================== */
-/* line 221, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 #about {
   background: #545454;
   padding: 60px 0;
   text-align: center;
 }
-/* line 226, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 #about h1 {
   color: #FFF;
   margin-bottom: 60px;
   font-family: "novecento", Helvetica, arial;
+  line-height: 1.2em;
 }
 /* line 232, ../sass/screen.scss */
 #about ul {
@@ -378,25 +378,26 @@ p {
 /* line 281, ../sass/screen.scss */
 #contact h1 {
   margin: 20px 0;
+  line-height: 1.2em;
 }
-/* line 286, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 #contact p {
   padding: 0 100px;
   margin-bottom: 30px;
 }
 
-/* line 292, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #contact-form {
   margin: 0 50px 150px;
 }
 
-/* line 296, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 #infouser {
   width: 310px;
   float: left;
   overflow: hidden;
 }
-/* line 301, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 #infouser input {
   padding-left: 4px;
   font-size: 0.983em;
@@ -408,7 +409,7 @@ p {
   float: right;
   margin-top: 10px;
 }
-/* line 313, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 #infouser #icon-name {
   background: #666666 url('../img/../img/name.png?1381685993') center no-repeat;
   height: 40px;
@@ -418,7 +419,7 @@ p {
   float: left;
   border: none;
 }
-/* line 323, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 #infouser #icon-mail {
   background: #666666 url('../img/../img/mail.png?1381685993') center no-repeat;
   height: 40px;
@@ -429,13 +430,13 @@ p {
   border: none;
 }
 
-/* line 335, ../sass/screen.scss */
+/* line 336, ../sass/screen.scss */
 #message {
   float: right;
   width: 530px;
   overflow: hidden;
 }
-/* line 340, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 #message textarea {
   margin-top: 10px;
   padding: 5px;
@@ -451,7 +452,7 @@ p {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 357, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 #message #icon-comment {
   background: #666666 url('../img/../img/message.png?1381685993') 50% 6% no-repeat;
   height: 200px;
@@ -461,7 +462,7 @@ p {
   border: none;
 }
 
-/* line 369, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 .send {
   overflow: hidden;
   float: right;
@@ -469,11 +470,11 @@ p {
   background-color: #666666;
   padding: 10px 42px;
 }
-/* line 376, ../sass/screen.scss */
+/* line 377, ../sass/screen.scss */
 .send:hover {
   background: #4d4d4d;
 }
-/* line 380, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 .send:active {
   background: #404040;
   top: 2px;
@@ -482,27 +483,27 @@ p {
 /* ==========================================================================
    Hello
    ========================================================================== */
-/* line 392, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 header #hello-logo {
   margin: 0 auto;
   text-align: center;
   margin: 25px 0 2px;
 }
-/* line 398, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 header h1 {
   text-align: center;
   display: block;
   margin: 0 auto 5px;
   font-size: 2em;
 }
-/* line 405, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 header p {
   text-align: center;
   display: block;
   font-size: 0.750em;
   padding: 0 50px 10px;
 }
-/* line 412, ../sass/screen.scss */
+/* line 413, ../sass/screen.scss */
 header #tags {
   padding: 15px 0;
   margin: 0 auto;
@@ -510,11 +511,11 @@ header #tags {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
-/* line 419, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
 header #tags ul {
   display: block;
 }
-/* line 422, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 header #tags ul li {
   display: inline;
   margin: 5px 0 0 15px;
@@ -525,24 +526,24 @@ header #tags ul li {
   background-color: #ff0080;
   padding: 5px;
 }
-/* line 432, ../sass/screen.scss */
+/* line 433, ../sass/screen.scss */
 header #tags ul li a {
   text-decoration: none;
   color: #FFF;
 }
-/* line 436, ../sass/screen.scss */
+/* line 437, ../sass/screen.scss */
 header #tags ul li a:hover {
   color: #111111;
 }
 
-/* line 446, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 #hello-works ul {
   margin: 15px auto;
   overflow: hidden;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
-/* line 452, ../sass/screen.scss */
+/* line 453, ../sass/screen.scss */
 #hello-works ul li {
   float: left;
   display: inline;
@@ -550,16 +551,16 @@ header #tags ul li a:hover {
   margin-bottom: 4px;
 }
 
-/* line 461, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 #pagination {
   margin-bottom: 20px;
   padding-bottom: 50px;
 }
-/* line 465, ../sass/screen.scss */
+/* line 466, ../sass/screen.scss */
 #pagination .prev {
   float: left;
 }
-/* line 469, ../sass/screen.scss */
+/* line 470, ../sass/screen.scss */
 #pagination .next {
   float: right;
 }
@@ -644,10 +645,9 @@ header #tags ul li a:hover {
   /* line 67, ../sass/_responsive.scss */
   #contact-form {
     float: none;
-    width: auto;
   }
 
-  /* line 71, ../sass/_responsive.scss */
+  /* line 70, ../sass/_responsive.scss */
   #message {
     float: none;
     text-align: center;
@@ -655,63 +655,75 @@ header #tags ul li a:hover {
     width: auto;
   }
 
-  /* line 78, ../sass/_responsive.scss */
+  /* line 77, ../sass/_responsive.scss */
   #infouser {
     float: none;
     margin: 0 auto;
   }
 
-  /* line 82, ../sass/_responsive.scss */
+  /* line 81, ../sass/_responsive.scss */
   .send {
     margin-right: 7%;
     float: right;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 94, ../sass/_responsive.scss */
+  /* line 92, ../sass/_responsive.scss */
   #menu {
     float: none;
     margin: 15px auto 0;
     width: 380px;
+    background-color: blue;
   }
 
-  /* line 100, ../sass/_responsive.scss */
+  /* line 99, ../sass/_responsive.scss */
   #header {
     margin-bottom: 60px;
   }
 
-  /* line 104, ../sass/_responsive.scss */
+  /* line 103, ../sass/_responsive.scss */
   #openlab, #textocanvas {
     padding-top: 80px;
   }
 
-  /* line 108, ../sass/_responsive.scss */
+  /* line 107, ../sass/_responsive.scss */
   #about ul li {
     width: 50%;
   }
 
-  /* line 111, ../sass/_responsive.scss */
+  /* line 110, ../sass/_responsive.scss */
   #message {
     width: 325px;
   }
-  /* line 114, ../sass/_responsive.scss */
+  /* line 113, ../sass/_responsive.scss */
   #message #comment {
     float: left;
     width: 268px;
   }
-  /* line 118, ../sass/_responsive.scss */
+  /* line 117, ../sass/_responsive.scss */
   #message #icon-comment {
     width: 42px;
   }
 
-  /* line 122, ../sass/_responsive.scss */
+  /* line 121, ../sass/_responsive.scss */
   .send {
     float: right;
-    margin-right: 25px;
+    margin-right: 12%;
+  }
+
+  /* line 126, ../sass/_responsive.scss */
+  #works, #openlab, #experiment, #about, #contact h1 {
+    padding-left: 4px;
+    padding-right: 4px;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 129, ../sass/_responsive.scss */
+  /* line 133, ../sass/_responsive.scss */
+  #menu {
+    background-color: red;
+  }
+
+  /* line 137, ../sass/_responsive.scss */
   #about ul li {
     width: auto;
     float: none;
