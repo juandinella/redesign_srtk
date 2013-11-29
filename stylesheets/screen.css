@@ -403,7 +403,7 @@ p {
   padding-left: 4px;
   font-size: 0.983em;
   font-weight: bold;
-  width: 265px;
+  width: 262px;
   height: 40px;
   border: none;
   background-color: #D1D1D1;
@@ -417,7 +417,7 @@ p {
 #infouser #icon-name {
   background: #666666 url('../img/../img/name.png?1381685993') center no-repeat;
   height: 40px;
-  width: 40px;
+  width: 48px;
   margin: 10px 0;
   display: inline-block;
   float: left;
@@ -427,7 +427,7 @@ p {
 #infouser #icon-mail {
   background: #666666 url('../img/../img/mail.png?1381685993') center no-repeat;
   height: 40px;
-  width: 40px;
+  width: 48px;
   margin: 10px 0;
   display: inline-block;
   float: left;
@@ -646,82 +646,107 @@ header #tags ul li a:hover {
     width: auto;
   }
 
-  /* line 67, ../sass/_responsive.scss */
-  #contact-form {
-    float: none;
+  /* line 68, ../sass/_responsive.scss */
+  #contact {
+    margin-bottom: 0;
   }
 
-  /* line 70, ../sass/_responsive.scss */
+  /* line 71, ../sass/_responsive.scss */
+  #contact-form {
+    float: none;
+    margin-bottom: 0;
+  }
+
+  /* line 75, ../sass/_responsive.scss */
   #message {
     float: none;
     text-align: center;
     margin: 0 auto;
     width: 80%;
+    padding-left: 0;
   }
 
-  /* line 77, ../sass/_responsive.scss */
+  /* line 83, ../sass/_responsive.scss */
   #infouser {
     float: none;
     margin: 0 auto;
+    width: 80%;
+  }
+  /* line 87, ../sass/_responsive.scss */
+  #infouser input {
+    width: 85%;
   }
 
-  /* line 81, ../sass/_responsive.scss */
+  /* line 92, ../sass/_responsive.scss */
   .send {
     margin-right: 13%;
     float: right;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 89, ../sass/_responsive.scss */
+  /* line 100, ../sass/_responsive.scss */
   #menu {
     float: none;
     margin: 15px auto 0;
     width: 380px;
   }
 
-  /* line 95, ../sass/_responsive.scss */
+  /* line 106, ../sass/_responsive.scss */
   #header {
     margin-bottom: 60px;
   }
 
-  /* line 99, ../sass/_responsive.scss */
+  /* line 110, ../sass/_responsive.scss */
   #openlab, #textocanvas {
     padding-top: 80px;
   }
 
-  /* line 103, ../sass/_responsive.scss */
+  /* line 114, ../sass/_responsive.scss */
   #about ul li {
     width: 50%;
   }
 
-  /* line 106, ../sass/_responsive.scss */
+  /* line 117, ../sass/_responsive.scss */
+  #infouser {
+    width: 325px;
+  }
+  /* line 119, ../sass/_responsive.scss */
+  #infouser input {
+    width: 268px;
+  }
+  /* line 122, ../sass/_responsive.scss */
+  #infouser #icon-name, #infouser #icon-mail {
+    width: 42px;
+  }
+
+  /* line 126, ../sass/_responsive.scss */
   #message {
     width: 325px;
   }
-  /* line 109, ../sass/_responsive.scss */
+  /* line 129, ../sass/_responsive.scss */
   #message #comment {
     float: left;
     width: 268px;
   }
-  /* line 113, ../sass/_responsive.scss */
+  /* line 133, ../sass/_responsive.scss */
   #message #icon-comment {
     width: 42px;
   }
 
-  /* line 117, ../sass/_responsive.scss */
+  /* line 137, ../sass/_responsive.scss */
   .send {
     float: right;
     margin-right: 12%;
   }
 
-  /* line 122, ../sass/_responsive.scss */
+  /* line 142, ../sass/_responsive.scss */
   #works, #openlab, #experiment, #about, #contact h1 {
     padding-left: 4px;
     padding-right: 4px;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 129, ../sass/_responsive.scss */
+  /* line 150, ../sass/_responsive.scss */
   #about ul li {
     width: auto;
     float: none;

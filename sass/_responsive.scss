@@ -64,19 +64,30 @@
 	#about ul{
 		width: auto;
 	}
+
+	#contact{
+		margin-bottom: 0;
+	}
 	#contact-form{
 		float: none;
+		margin-bottom: 0;
 	}
 	#message{
 		float: none;
 		text-align: center;
 		margin: 0 auto;
 		width: 80%;
+		padding-left: 0;
 
 	}
 	#infouser{
 		float: none;
 		margin: 0 auto;
+		width: 80%;
+		input{
+			width: 85%;
+		}
+
 	}
 	.send{
 		margin-right: 13%;
@@ -103,6 +114,15 @@
 	#about ul li{
 		width: 50%;
 	}
+	#infouser{
+		width: 325px;
+		input{
+			width: 268px;
+		}
+		#icon-name, #icon-mail{
+			width: 42px;
+		}
+	}
 	#message{
 		width: 325px;
 
@@ -123,6 +143,7 @@
 		padding-left: 4px;
 		padding-right: 4px;
 	}
+
 }
 
 @media screen and (max-width:360px){
