@@ -466,7 +466,7 @@
    	overflow:hidden;
    	padding-bottom: 10px;
    	border-bottom: 1px solid #ccc;
-   	width: 95%;
+   	width: 98%;
    	text-align: center;
       position:relative;
 
@@ -493,6 +493,7 @@
       height:100%;
       background-color:rgba(0,0,0,0.5);
       display:none;
+
       .maintitle {
          display: block;
          position: absolute;
@@ -506,6 +507,7 @@
          text-transform: uppercase;
          text-decoration:none;
       }
+
       ul{
          display: block;
          position:absolute;
@@ -513,6 +515,7 @@
          top:60%;
          width:100%;
          border: none;
+
          li{
             display:inline;
             margin: 5px 0 0 5px;
@@ -521,50 +524,16 @@
             font-family:$fontFamily;
             background-color: $magenta;
             padding: 5px 6px;
+
             a{
                text-decoration:none;
                color:#fff;
+               line-height: 2em;
             }
          }
       }
    }
 }
-
-   // .overlay{
-   // 	background-color:rgba(28,28,28,0.6);
-   // 	position: absolute;
-   // 	width:100%;
-   // 	height:100%;
-   // 	top: 0;
-   // 	left: 0;
-   // 	border: none;
-
-   // 	ul{
-   // 		display: block;
-   // 		border: none;
-
-
-   // 		li{
-   // 			display:inline;
-   // 			margin: 5px 0 0 15px;
-
-   // 			text-transform:uppercase;
-   // 			font-size:0.875em;
-   // 			text-decoration:none;
-   // 			font-family:$fontFamily;
-   // 			background-color: $magenta;
-   // 			padding: 5px 6px;
-   // 		}
-   // 	}
-   // }
-
-   // .worktitle{
-   // 	position: relative;
-   //    visibility: hidden;
-   // }
-
-
-
 
    #pagination{
    	padding-bottom: 50px;
