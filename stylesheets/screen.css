@@ -425,7 +425,7 @@ p {
 }
 /* line 328, ../sass/screen.scss */
 #infouser #icon-mail {
-  background: #666666 url('../img/../img/mail.png?1381685993') center no-repeat;
+  background: #666666 url('../img/../img/mailcontact.png?1381685993') center no-repeat;
   height: 40px;
   width: 48px;
   margin: 10px 0;
@@ -467,7 +467,7 @@ p {
   border: none;
 }
 
-/* line 375, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 .send {
   overflow: hidden;
   float: right;
@@ -475,11 +475,11 @@ p {
   background-color: #666666;
   padding: 10px 42px;
 }
-/* line 382, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .send:hover {
   background: #4d4d4d;
 }
-/* line 386, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 .send:active {
   background: #404040;
   top: 2px;
@@ -491,27 +491,37 @@ p {
 /* ==========================================================================
    Hello
    ========================================================================== */
-/* line 401, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 header #hello-logo {
   margin: 0 auto;
   text-align: center;
   margin: 25px 0 2px;
 }
-/* line 407, ../sass/screen.scss */
+/* line 405, ../sass/screen.scss */
 header h1 {
   text-align: center;
   display: block;
   margin: 0 auto 5px;
   font-size: 2em;
 }
-/* line 414, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 header p {
   text-align: center;
   display: block;
   font-size: 0.750em;
   padding: 0 50px 10px;
 }
-/* line 421, ../sass/screen.scss */
+/* line 418, ../sass/screen.scss */
+header #social {
+  margin: 10px auto;
+  text-align: center;
+}
+/* line 422, ../sass/screen.scss */
+header #social li {
+  display: inline;
+  margin-right: 1px;
+}
+/* line 428, ../sass/screen.scss */
 header #tags {
   padding: 15px 0;
   margin: 0 auto;
@@ -519,11 +529,11 @@ header #tags {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
-/* line 428, ../sass/screen.scss */
+/* line 435, ../sass/screen.scss */
 header #tags ul {
   display: block;
 }
-/* line 431, ../sass/screen.scss */
+/* line 438, ../sass/screen.scss */
 header #tags ul li {
   display: inline;
   margin: 5px 0 0 15px;
@@ -534,17 +544,17 @@ header #tags ul li {
   background-color: #ff0080;
   padding: 5px 6px;
 }
-/* line 441, ../sass/screen.scss */
+/* line 448, ../sass/screen.scss */
 header #tags ul li a {
   text-decoration: none;
   color: #FFF;
 }
-/* line 445, ../sass/screen.scss */
+/* line 452, ../sass/screen.scss */
 header #tags ul li:hover {
   color: #111111;
 }
 
-/* line 455, ../sass/screen.scss */
+/* line 464, ../sass/screen.scss */
 #hello-works ul {
   margin: 15px auto;
   overflow: hidden;
@@ -553,39 +563,40 @@ header #tags ul li:hover {
   width: 95%;
   text-align: center;
 }
-/* line 463, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 #hello-works ul li {
   display: inline-block;
-  width: 33%;
+  width: 32%;
   text-align: center;
-  background-color: #282828;
+  padding: 3px;
 }
-/* line 469, ../sass/screen.scss */
-#hello-works ul li:hover img {
-  opacity: 0.1;
-}
-
 /* line 478, ../sass/screen.scss */
-img {
+#hello-works ul img {
   max-width: 100%;
   display: block;
 }
+/* line 483, ../sass/screen.scss */
+#hello-works ul p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
 
-/* line 486, ../sass/screen.scss */
+/* line 494, ../sass/screen.scss */
 #pagination {
   padding-bottom: 50px;
   margin: 15px auto;
   overflow: hidden;
-  width: 95%;
+  width: 72%;
   text-align: center;
 }
-/* line 493, ../sass/screen.scss */
+/* line 501, ../sass/screen.scss */
 #pagination .prev {
   float: left;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 4px 15px;
 }
-/* line 499, ../sass/screen.scss */
+/* line 507, ../sass/screen.scss */
 #pagination .next {
   float: right;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

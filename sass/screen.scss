@@ -326,7 +326,7 @@ p{
 	}
 
 	#icon-mail{
-		background:#666 image-url('../img/mail.png') center no-repeat;
+		background:#666 image-url('../img/mailcontact.png') center no-repeat;
 		height:40px;
 		width:48px;
 		margin:10px 0;
@@ -367,8 +367,6 @@ p{
 		margin:10px 0;
 		float:left;
 		border:none;
-
-
 	}
 }
 
@@ -417,6 +415,15 @@ header{
 		font-size: 0.750em;
 		padding: 0 50px 10px;
 	}
+	#social{
+		margin: 10px auto;
+		text-align: center;
+		
+		li{
+			display: inline;
+			margin-right: 1px;
+		}
+	}
 
 	#tags{
 	padding:15px 0;
@@ -450,6 +457,8 @@ header{
 }
 }
 
+
+
 #hello-works{
 
 	ul{
@@ -462,32 +471,31 @@ header{
 
 		li {
 			display:inline-block;
-			width: 33%;
+			width: 32%;
 			text-align: center;
-			background-color: #282828;
+			padding: 3px;			
+		}
+		img {
+			max-width: 100%;
+			display: block;
 
-			&:hover img{
-				opacity: 0.1;
-
-			}
+		}
+		p a{	
+			font-family: $fontFamily;
+			font-size: 1em;
+			color: #fff;
 
 		}
 
 	}
 }
-img{
-	max-width: 100%;
-	display: block;
-	 
-}
-
 
 
 #pagination{
 	padding-bottom: 50px;
 	margin:15px auto;
 	overflow:hidden;
-	width: 95%;
+	width: 72%;
 	text-align: center;
 
 	.prev{
