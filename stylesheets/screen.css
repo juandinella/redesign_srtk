@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -415,7 +415,7 @@ p {
 }
 /* line 318, ../sass/screen.scss */
 #infouser #icon-name {
-  background: #666666 url('../img/../img/name.png?1381685993') center no-repeat;
+  background: #666666 url('../img/../img/name.png?1385765184') center no-repeat;
   height: 40px;
   width: 48px;
   margin: 10px 0;
@@ -425,7 +425,7 @@ p {
 }
 /* line 328, ../sass/screen.scss */
 #infouser #icon-mail {
-  background: #666666 url('../img/../img/mailcontact.png?1381685993') center no-repeat;
+  background: #666666 url('../img/../img/mailcontact.png?1385846360') center no-repeat;
   height: 40px;
   width: 48px;
   margin: 10px 0;
@@ -459,7 +459,7 @@ p {
 }
 /* line 363, ../sass/screen.scss */
 #message #icon-comment {
-  background: #666666 url('../img/../img/message.png?1381685993') 50% 6% no-repeat;
+  background: #666666 url('../img/../img/message.png?1385765184') 50% 6% no-repeat;
   height: 200px;
   width: 48px;
   margin: 10px 0;
@@ -562,54 +562,35 @@ header #tags ul li:hover {
   border-bottom: 1px solid #ccc;
   width: 95%;
   text-align: center;
+  position: relative;
 }
-/* line 472, ../sass/screen.scss */
+/* line 473, ../sass/screen.scss */
 #hello-works ul li {
   display: inline-block;
+  position: relative;
   width: 32%;
   text-align: center;
   margin: 3px;
 }
-/* line 478, ../sass/screen.scss */
+/* line 480, ../sass/screen.scss */
 #hello-works ul img {
   max-width: 100%;
+  position: relative;
   display: block;
 }
-
-/* line 486, ../sass/screen.scss */
-.overlay {
-  background-color: rgba(28, 28, 28, 0.6);
+/* line 487, ../sass/screen.scss */
+#hello-works ul .overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
-  border: none;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
 }
-/* line 495, ../sass/screen.scss */
-.overlay ul {
-  display: block;
-  border: none;
-}
-/* line 499, ../sass/screen.scss */
-.overlay ul li {
-  display: inline;
-  margin: 5px 0 0 15px;
-  text-transform: uppercase;
-  font-size: 0.875em;
-  text-decoration: none;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  background-color: #ff0080;
-  padding: 5px 6px;
-}
-
-/* line 512, ../sass/screen.scss */
-.worktitle {
-  position: relative;
-}
-
-/* line 516, ../sass/screen.scss */
-.maintitle {
+/* line 496, ../sass/screen.scss */
+#hello-works ul .overlay .maintitle {
   display: block;
   position: absolute;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -622,21 +603,45 @@ header #tags ul li:hover {
   text-transform: uppercase;
   text-decoration: none;
 }
+/* line 509, ../sass/screen.scss */
+#hello-works ul .overlay ul {
+  display: block;
+  position: absolute;
+  text-align: left;
+  top: 60%;
+  width: 100%;
+  border: none;
+}
+/* line 516, ../sass/screen.scss */
+#hello-works ul .overlay ul li {
+  display: inline;
+  margin: 5px 0 0 5px;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #ff0080;
+  padding: 5px 6px;
+}
+/* line 524, ../sass/screen.scss */
+#hello-works ul .overlay ul li a {
+  text-decoration: none;
+  color: #fff;
+}
 
-/* line 532, ../sass/screen.scss */
+/* line 569, ../sass/screen.scss */
 #pagination {
   padding-bottom: 50px;
   margin: 15px auto;
   overflow: hidden;
   text-align: center;
 }
-/* line 538, ../sass/screen.scss */
+/* line 575, ../sass/screen.scss */
 #pagination .prev {
   float: left;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 4px 15px;
 }
-/* line 544, ../sass/screen.scss */
+/* line 581, ../sass/screen.scss */
 #pagination .next {
   float: right;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
