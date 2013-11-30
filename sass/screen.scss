@@ -353,6 +353,7 @@ p{
 		border:none;
 		font-size:0.983em;
 		font-weight:bold;
+		resize: none;
 		-webkit-box-sizing: border-box; 
 		-moz-box-sizing: border-box;    
 		box-sizing: border-box;         
@@ -388,6 +389,9 @@ p{
 	}
 }
 
+/* ==========================================================================
+   Fin Home
+   ========================================================================== */
 /* ==========================================================================
    Hello
    ========================================================================== */
@@ -432,13 +436,13 @@ header{
 			text-decoration:none;
 			font-family:$fontFamily;
 			background-color: $magenta;
-			padding: 5px;
+			padding: 5px 6px;
 
 			a{
 				text-decoration:none;
 				color:#FFF;
 			}
-			a:hover{
+			&:hover{
 				color:darken(#919191, 50);
 			}
 		}
@@ -453,26 +457,37 @@ header{
 		overflow:hidden;
 		padding-bottom: 10px;
 		border-bottom: 1px solid #ccc;
+		width: 95%;
+		text-align: center;
 
 		li {
-			float:left;
-			display:inline;
-			width: 33.333%;
-			margin-bottom: 4px;
+			display:inline-block;
+			width: 33%;
+			text-align: center;
 		}
 	}
 }
+img{
+	max-width: 100%; 
+}
 
 #pagination{
-	margin-bottom: 20px;
 	padding-bottom: 50px;
+	margin:15px auto;
+	overflow:hidden;
+	width: 95%;
+	text-align: center;
 
 	.prev{
 		float: left;
+		font-family: $fontFamily;
+		padding: 4px 15px;
 	}
 
 	.next{
 		float: right;
+		font-family: $fontFamily;
+		padding: 4px 15px;
 	}
 }
 

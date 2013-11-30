@@ -39,6 +39,12 @@
 	#pagination{
 		padding: 0 20px;
 	}
+	#hello-works ul li{
+		width: 48%;
+	}
+	#pagination{
+		width: 70%;
+	}
 	
 }
 
@@ -92,6 +98,10 @@
 	.send{
 		margin-right: 13%;
 		float: right;
+	}
+	#hello-works ul li{
+		width: 90%;
+		float: none;
 	}	
 
 }
