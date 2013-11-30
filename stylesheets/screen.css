@@ -649,6 +649,64 @@ header #tags ul li:hover {
   padding: 4px 15px;
 }
 
+/* ==========================================================================
+One Work
+========================================================================== */
+/* line 563, ../sass/screen.scss */
+#onework h1 {
+  text-align: left;
+  margin: 10px 0;
+}
+/* line 568, ../sass/screen.scss */
+#onework p {
+  margin: 0;
+  text-align: justify;
+  color: #545454;
+  font-size: 0.875em;
+  padding: 0 3px;
+}
+/* line 575, ../sass/screen.scss */
+#onework img {
+  display: block;
+  position: relative;
+  max-width: 100%;
+}
+
+/* line 583, ../sass/screen.scss */
+#otherarticles, #morepictures ul {
+  margin: 15px auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+/* line 591, ../sass/screen.scss */
+#otherarticles li, #morepictures ul li {
+  display: inline-block;
+  position: relative;
+  width: 32%;
+  text-align: center;
+  margin: 3px;
+}
+/* line 598, ../sass/screen.scss */
+#otherarticles img, #morepictures ul img {
+  max-width: 100%;
+  position: relative;
+  display: block;
+}
+
+/* line 606, ../sass/screen.scss */
+#otherarticles {
+  padding-top: 45px;
+}
+/* line 609, ../sass/screen.scss */
+#otherarticles h2 {
+  font-family: 'novecento';
+  font-size: 1.5em;
+  color: #404040;
+}
+
 @media screen and (max-width: 999px) {
   /* line 2, ../sass/_responsive.scss */
   .wrap {

@@ -471,20 +471,20 @@
       position:relative;
 
       li {
-       display:inline-block;
-       position:relative;
-       width: 32%;
-       text-align: center;
-       margin: 3px;			
-    }
-    img {
-       max-width: 100%;
-       position:relative;
-       display: block;
-    }
+        display:inline-block;
+        position:relative;
+        width: 32%;
+        text-align: center;
+        margin: 3px;			
+     }
+     img {
+        max-width: 100%;
+        position:relative;
+        display: block;
+     }
 
 
-    .overlay{
+     .overlay {
       position:absolute;
       top:0;
       left:0;
@@ -535,23 +535,84 @@
    }
 }
 
-   #pagination{
-   	padding-bottom: 50px;
-   	margin:15px auto;
-   	overflow:hidden;
-   	text-align: center;
+#pagination{
+  padding-bottom: 50px;
+  margin:15px auto;
+  overflow:hidden;
+  text-align: center;
 
-   	.prev{
-   		float: left;
-   		font-family: $fontFamily;
-   		padding: 4px 15px;
-   	}
+  .prev{
+    float: left;
+    font-family: $fontFamily;
+    padding: 4px 15px;
+ }
 
-   	.next{
-   		float: right;
-   		font-family: $fontFamily;
-   		padding: 4px 15px;
-   	}
+ .next{
+    float: right;
+    font-family: $fontFamily;
+    padding: 4px 15px;
+ }
+}
+
+   /* ==========================================================================
+   One Work
+   ========================================================================== */
+   
+   #onework {
+
+      h1{
+         text-align: left;
+         margin: 10px 0;
+      }
+
+      p{
+         margin: 0;
+         text-align: justify;
+         color: #545454;
+         font-size: 0.875em;
+         padding: 0 3px;
+      }
+      img{
+         display: block;
+         position: relative;
+         max-width: 100%;
+      }
+
    }
 
-   @import "_responsive";
+   #otherarticles, #morepictures ul, {
+      margin:15px auto;
+      overflow:hidden;
+      padding-bottom: 10px;
+      width: 100%;
+      text-align: center;
+      position:relative;
+
+      li {
+        display:inline-block;
+        position:relative;
+        width: 32%;
+        text-align: center;
+        margin: 3px;        
+     }
+     img {
+        max-width: 100%;
+        position:relative;
+        display: block;
+     }
+
+  }
+
+  #otherarticles{
+   padding-top: 45px;
+
+   h2{
+      font-family: 'novecento';
+      font-size: 1.5em;
+      color: #404040;
+   }
+}
+  
+
+
+@import "_responsive";
