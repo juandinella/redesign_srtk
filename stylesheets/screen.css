@@ -558,14 +558,20 @@ header #tags ul li:hover {
   display: inline-block;
   width: 33%;
   text-align: center;
+  background-color: #282828;
+}
+/* line 469, ../sass/screen.scss */
+#hello-works ul li:hover img {
+  opacity: 0.1;
 }
 
-/* line 470, ../sass/screen.scss */
+/* line 478, ../sass/screen.scss */
 img {
   max-width: 100%;
+  display: block;
 }
 
-/* line 474, ../sass/screen.scss */
+/* line 486, ../sass/screen.scss */
 #pagination {
   padding-bottom: 50px;
   margin: 15px auto;
@@ -573,13 +579,13 @@ img {
   width: 95%;
   text-align: center;
 }
-/* line 481, ../sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 #pagination .prev {
   float: left;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 4px 15px;
 }
-/* line 487, ../sass/screen.scss */
+/* line 499, ../sass/screen.scss */
 #pagination .next {
   float: right;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

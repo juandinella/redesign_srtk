@@ -464,12 +464,24 @@ header{
 			display:inline-block;
 			width: 33%;
 			text-align: center;
+			background-color: #282828;
+
+			&:hover img{
+				opacity: 0.1;
+
+			}
+
 		}
+
 	}
 }
 img{
-	max-width: 100%; 
+	max-width: 100%;
+	display: block;
+	 
 }
+
+
 
 #pagination{
 	padding-bottom: 50px;
