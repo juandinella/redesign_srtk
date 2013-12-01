@@ -15,6 +15,18 @@
    	}
    }
 
+   .logologin{
+      margin-bottom: 15px;
+
+      h1{
+         font-family: $fontFamily;
+         font-size: 1.375em;
+         color: #fff;
+         text-transform: uppercase;
+         text-align: center;
+
+      }
+   }
 
    #superadminlogin, #hellologin, #openlablogin{
    	margin: auto;
