@@ -100,30 +100,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 4px 20px;
   margin: 10px 0px;
   font-size: 0.938em;
-  color: #FFF;
+  color: white;
   text-decoration: none;
   background-color: #ff0080;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  text-transform: uppercase;
   outline: none;
   position: relative;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-/* line 44, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 .btn:hover {
   background: #cc0066;
 }
-/* line 48, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .btn:active {
   background: #b3005a;
   top: 2px;
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .mini {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -135,7 +135,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    Texto
    ========================================================================== */
-/* line 63, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 h1 {
   font-size: 2.4em;
   font-family: 'novecento';
@@ -143,7 +143,7 @@ h1 {
   margin-bottom: 2px;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #BCBCBC;
@@ -154,7 +154,7 @@ p {
 /* ==========================================================================
    Intro
    ========================================================================== */
-/* line 82, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 #intro {
   background-image: -webkit-gradient(radial, 500px 500px, 0, 500px 500px, 900, color-stop(1.11111%, #ffffff), color-stop(100%, #e7e8e9));
   background-image: -webkit-radial-gradient(500px 500px, #ffffff 10px, #e7e8e9 900px);
@@ -164,34 +164,34 @@ p {
   padding-top: 20px;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 #header {
   margin: 0 0 80px 0;
   overflow: hidden;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 #logo {
   display: block;
   float: left;
 }
-/* line 96, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #logo a {
   text-decoration: none;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 #menu {
   padding: 15px 0;
   margin: 0;
   float: right;
   text-align: right;
 }
-/* line 108, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #menu ul {
   display: block;
 }
-/* line 111, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 #menu ul li {
   display: inline;
   margin-left: 20px;
@@ -200,12 +200,12 @@ p {
   text-decoration: none;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-/* line 119, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 #menu ul li a {
   text-decoration: none;
   color: #919191;
 }
-/* line 123, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 #menu ul li a:hover {
   border-bottom: 2px solid #919191;
   color: #111111;
@@ -214,12 +214,12 @@ p {
 /* ==========================================================================
    Works
    ========================================================================== */
-/* line 136, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 #works {
   text-align: center;
   padding-bottom: 100px;
 }
-/* line 140, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #works p {
   padding: 8px 50px 0;
 }
@@ -227,17 +227,17 @@ p {
 /* ==========================================================================
    OpenLab
    ========================================================================== */
-/* line 148, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 #openlab {
   padding: 100px 0;
   background-color: #00C9FF;
   text-align: center;
 }
-/* line 153, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #openlab h1 {
   color: #FFF;
 }
-/* line 156, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #openlab p {
   color: #FFF;
   padding: 8px 50px 0;
@@ -246,36 +246,36 @@ p {
 /* ==========================================================================
    Experiment
    ========================================================================== */
-/* line 165, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #experiment {
   background-color: #ff0080;
   height: 400px;
 }
 
-/* line 170, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 #miCanvas {
   position: absolute;
   display: block;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 #textocanvas {
   position: relative;
   text-align: center;
   z-index: 2;
   padding: 100px 0;
 }
-/* line 182, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 #textocanvas h1 {
   color: #FFF;
 }
-/* line 185, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 #textocanvas p {
   color: #FFF;
   padding: 8px 50px 0;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .btnexp {
   display: -moz-inline-stack;
   display: inline-block;
@@ -304,11 +304,11 @@ p {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 209, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .btnexp:hover {
   background: #CCC;
 }
-/* line 212, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .btnexp:active {
   background: #a6a6a6;
   top: 2px;
@@ -317,34 +317,34 @@ p {
 /* ==========================================================================
    About
    ========================================================================== */
-/* line 222, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 #about {
   background: #545454;
   padding: 60px 0;
   text-align: center;
 }
-/* line 227, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #about h1 {
   color: #FFF;
   margin-bottom: 60px;
   font-family: "novecento", Helvetica, arial;
   line-height: 1.2em;
 }
-/* line 234, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 #about ul {
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
   width: 780px;
 }
-/* line 240, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #about ul li {
   float: left;
   margin-bottom: 5px;
   text-align: center;
   width: 260px;
 }
-/* line 246, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 #about ul li h3 {
   color: #FFF;
   font-size: 1.125em;
@@ -352,7 +352,7 @@ p {
   font-family: "novecento", Helvetica, arial;
   padding: 20px 0 20px;
 }
-/* line 254, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 #about ul li p {
   color: #FFF;
   font-size: 0.875em;
@@ -360,7 +360,7 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0 3px;
 }
-/* line 263, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 #about ul li a {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
@@ -370,35 +370,35 @@ p {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 278, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 #contact {
   text-align: center;
   padding: 100px 0;
   margin-bottom: 300px;
 }
-/* line 283, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 #contact h1 {
   margin: 20px 0;
   line-height: 1.2em;
 }
-/* line 289, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 #contact p {
   padding: 0 100px;
   margin-bottom: 30px;
 }
 
-/* line 295, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 #contact-form {
   margin: 0 50px 150px;
 }
 
-/* line 299, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 #infouser {
   width: 310px;
   float: left;
   overflow: hidden;
 }
-/* line 304, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 #infouser input {
   padding-left: 4px;
   font-size: 0.983em;
@@ -413,7 +413,7 @@ p {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 319, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 #infouser #icon-name {
   background: #666666 url('../img/../img/name.png?1381685993') center no-repeat;
   height: 40px;
@@ -423,7 +423,7 @@ p {
   float: left;
   border: none;
 }
-/* line 329, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 #infouser #icon-mail {
   background: #666666 url('../img/../img/mailcontact.png?1381685993') center no-repeat;
   height: 40px;
@@ -434,13 +434,13 @@ p {
   border: none;
 }
 
-/* line 341, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 #message {
   float: right;
   width: 530px;
   overflow: hidden;
 }
-/* line 346, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 #message textarea {
   margin-top: 10px;
   padding: 5px;
@@ -457,7 +457,7 @@ p {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 364, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 #message #icon-comment {
   background: #666666 url('../img/../img/message.png?1381685993') 50% 6% no-repeat;
   height: 200px;
@@ -467,7 +467,7 @@ p {
   border: none;
 }
 
-/* line 374, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 .send {
   overflow: hidden;
   float: right;
@@ -475,11 +475,11 @@ p {
   background-color: #666666;
   padding: 10px 42px;
 }
-/* line 381, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 .send:hover {
   background: #4d4d4d;
 }
-/* line 385, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 .send:active {
   background: #404040;
   top: 2px;
@@ -491,37 +491,37 @@ p {
 /* ==========================================================================
    Hello
    ========================================================================== */
-/* line 402, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 header #hello-logo {
   margin: 0 auto;
   text-align: center;
   margin: 25px 0 2px;
 }
-/* line 408, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 header h1 {
   text-align: center;
   display: block;
   margin: 0 auto 5px;
   font-size: 2em;
 }
-/* line 415, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 header p {
   text-align: center;
   display: block;
   font-size: 0.750em;
   padding: 0 50px 10px;
 }
-/* line 422, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 header #social {
   margin: 10px auto;
   text-align: center;
 }
-/* line 426, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 header #social li {
   display: inline;
   margin-right: 1px;
 }
-/* line 432, ../sass/screen.scss */
+/* line 416, ../sass/screen.scss */
 header #tags {
   padding: 15px 0;
   margin: 0 auto;
@@ -529,11 +529,11 @@ header #tags {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
-/* line 439, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 header #tags ul {
   display: block;
 }
-/* line 442, ../sass/screen.scss */
+/* line 426, ../sass/screen.scss */
 header #tags ul li {
   display: inline;
   margin: 5px 0 0 15px;
@@ -544,17 +544,17 @@ header #tags ul li {
   background-color: #ff0080;
   padding: 5px 6px;
 }
-/* line 452, ../sass/screen.scss */
+/* line 436, ../sass/screen.scss */
 header #tags ul li a {
   text-decoration: none;
   color: #FFF;
 }
-/* line 456, ../sass/screen.scss */
+/* line 440, ../sass/screen.scss */
 header #tags ul li:hover {
   color: #111111;
 }
 
-/* line 465, ../sass/screen.scss */
+/* line 449, ../sass/screen.scss */
 #hello-works ul {
   margin: 15px auto;
   overflow: hidden;
@@ -564,7 +564,7 @@ header #tags ul li:hover {
   text-align: center;
   position: relative;
 }
-/* line 474, ../sass/screen.scss */
+/* line 458, ../sass/screen.scss */
 #hello-works ul li {
   display: inline-block;
   position: relative;
@@ -572,13 +572,13 @@ header #tags ul li:hover {
   text-align: center;
   margin: 3px;
 }
-/* line 481, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 #hello-works ul img {
   max-width: 100%;
   position: relative;
   display: block;
 }
-/* line 488, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 #hello-works ul .overlay {
   position: absolute;
   top: 0;
@@ -589,7 +589,7 @@ header #tags ul li:hover {
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
-/* line 498, ../sass/screen.scss */
+/* line 482, ../sass/screen.scss */
 #hello-works ul .overlay .maintitle {
   display: block;
   position: absolute;
@@ -603,7 +603,7 @@ header #tags ul li:hover {
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 512, ../sass/screen.scss */
+/* line 496, ../sass/screen.scss */
 #hello-works ul .overlay ul {
   display: block;
   position: absolute;
@@ -612,37 +612,37 @@ header #tags ul li:hover {
   width: 100%;
   border: none;
 }
-/* line 520, ../sass/screen.scss */
+/* line 504, ../sass/screen.scss */
 #hello-works ul .overlay ul li {
   display: inline;
   margin: 5px 0 0 5px;
   text-transform: uppercase;
   font-size: 0.875em;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  background-color: #ff0080;
+  background-color: #00FF9D;
   padding: 5px 6px;
 }
-/* line 529, ../sass/screen.scss */
+/* line 513, ../sass/screen.scss */
 #hello-works ul .overlay ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #282828;
   line-height: 2em;
 }
 
-/* line 539, ../sass/screen.scss */
+/* line 523, ../sass/screen.scss */
 #pagination {
   padding-bottom: 50px;
   margin: 15px auto;
   overflow: hidden;
   text-align: center;
 }
-/* line 545, ../sass/screen.scss */
+/* line 529, ../sass/screen.scss */
 #pagination .prev {
   float: left;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 4px 15px;
 }
-/* line 551, ../sass/screen.scss */
+/* line 535, ../sass/screen.scss */
 #pagination .next {
   float: right;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -652,27 +652,27 @@ header #tags ul li:hover {
 /* ==========================================================================
 One Work
 ========================================================================== */
-/* line 564, ../sass/screen.scss */
+/* line 548, ../sass/screen.scss */
 #onework h1 {
   text-align: left;
   margin: 10px 0;
 }
-/* line 569, ../sass/screen.scss */
+/* line 553, ../sass/screen.scss */
 #onework p {
-  margin: 0;
+  margin: 10px 0 50px;
   text-align: justify;
   color: #545454;
   font-size: 0.875em;
   padding: 0 3px;
 }
-/* line 576, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 #onework img {
   display: block;
   position: relative;
   max-width: 100%;
 }
 
-/* line 584, ../sass/screen.scss */
+/* line 568, ../sass/screen.scss */
 #otherarticles, #morepictures ul {
   margin: 15px auto;
   overflow: hidden;
@@ -681,7 +681,7 @@ One Work
   text-align: center;
   position: relative;
 }
-/* line 592, ../sass/screen.scss */
+/* line 576, ../sass/screen.scss */
 #otherarticles li, #morepictures ul li {
   display: inline-block;
   position: relative;
@@ -689,18 +689,18 @@ One Work
   text-align: center;
   margin: 3px;
 }
-/* line 599, ../sass/screen.scss */
+/* line 583, ../sass/screen.scss */
 #otherarticles img, #morepictures ul img {
   max-width: 100%;
   position: relative;
   display: block;
 }
 
-/* line 607, ../sass/screen.scss */
+/* line 591, ../sass/screen.scss */
 #otherarticles {
   padding-top: 45px;
 }
-/* line 610, ../sass/screen.scss */
+/* line 594, ../sass/screen.scss */
 #otherarticles h2 {
   font-family: 'novecento';
   font-size: 1.5em;

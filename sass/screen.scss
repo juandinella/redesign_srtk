@@ -23,23 +23,7 @@
 }
 
 .btn {
-	@include inline-block;
-	@include border-radius(8px);
-	padding: 4px 20px;
-	margin: 10px 0px;
-	font-size:0.938em;
-	color:#FFF;
-	text-decoration:none;
-	background-color:$magenta;
-	text-transform: uppercase;
-	border: none;
-	cursor: pointer;
-	text-transform: uppercase;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+   @include btn(#FFF, $magenta, 8px, $fontFamily, 4px 20px);
 
 	&:hover{
 		background:darken($magenta, 10);
@@ -523,12 +507,12 @@
             text-transform:uppercase;
             font-size:0.875em;
             font-family:$fontFamily;
-            background-color: $magenta;
+            background-color: #00FF9D;
             padding: 5px 6px;
 
             a{
                text-decoration:none;
-               color:#fff;
+               color:#282828;
                line-height: 2em;
             }
          }
@@ -567,7 +551,7 @@
       }
 
       p{
-         margin: 0;
+         margin: 10px 0 50px;
          text-align: justify;
          color: #545454;
          font-size: 0.875em;

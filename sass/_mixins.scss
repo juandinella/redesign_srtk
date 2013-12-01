@@ -1,0 +1,24 @@
+
+@mixin btn($color, $fondo, $borderradius, $font, $padding){
+	@include inline-block;
+	@include border-radius($borderradius);
+	padding: $padding;
+	margin: 10px 0px;
+	font-size:0.938em;
+	color:$color;
+	text-decoration:none;
+	background-color:$fondo;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	font-family: $font;
+}
+
+@mixin bodybg($fondo){
+	background-color: $fondo;
+}

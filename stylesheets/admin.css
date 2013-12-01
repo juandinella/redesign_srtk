@@ -71,37 +71,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 8, ../sass/admin.scss */
-.wrap {
-  width: 980px;
-  margin: 0 auto;
-}
-
+/* ==========================================================================
+   Generales
+   ========================================================================== */
 @media screen and (max-width: 999px) {
-  /* line 14, ../sass/admin.scss */
+  /* line 13, ../sass/admin.scss */
   .wrap {
     width: auto;
   }
 }
 /* line 19, ../sass/admin.scss */
-body {
-  background-color: #ff0080;
+#superadminlogin, #hellologin, #openlablogin {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 266px;
+  width: 155px;
 }
-
-/* line 23, ../sass/admin.scss */
-#login {
-  margin: 150px auto;
-  text-align: center;
-}
-/* line 27, ../sass/admin.scss */
-#login p {
+/* line 26, ../sass/admin.scss */
+#superadminlogin p, #hellologin p, #openlablogin p {
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #FFF;
   margin: 10px 0;
+  text-align: center;
 }
 
-/* line 37, ../sass/admin.scss */
+/* ==========================================================================
+   SuperAdmin
+   ========================================================================== */
+/* line 40, ../sass/admin.scss */
+#bodysuperadmin {
+  background-color: #ff0080;
+}
+
+/* line 46, ../sass/admin.scss */
 .btn {
   display: -moz-inline-stack;
   display: inline-block;
@@ -109,29 +116,132 @@ body {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  padding: 10px 20px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px;
   margin: 10px 0px;
-  font-size: 0.875em;
-  color: #FFF;
+  font-size: 0.938em;
+  color: white;
   text-decoration: none;
-  background-color: #2D2D2D;
+  background-color: #282828;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  text-transform: uppercase;
   outline: none;
   position: relative;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'novecento';
+  font-family: "novecento";
 }
-/* line 56, ../sass/admin.scss */
+/* line 50, ../sass/admin.scss */
 .btn:hover {
-  background: #141414;
+  background: #0e0e0e;
 }
-/* line 60, ../sass/admin.scss */
+/* line 54, ../sass/admin.scss */
 .btn:active {
-  background: #070707;
+  background: #020202;
+  top: 2px;
+}
+
+/* ==========================================================================
+   Hello Login
+   ========================================================================== */
+/* line 65, ../sass/admin.scss */
+#bodyhello {
+  background-color: #545454;
+}
+
+/* line 68, ../sass/admin.scss */
+.btnhello {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 0.938em;
+  color: white;
+  text-decoration: none;
+  background-color: #ff0080;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "novecento";
+}
+/* line 71, ../sass/admin.scss */
+.btnhello:hover {
+  background: #cc0066;
+}
+/* line 75, ../sass/admin.scss */
+.btnhello:active {
+  background: #b3005a;
+  top: 2px;
+}
+
+/* line 81, ../sass/admin.scss */
+#hellologin a img {
+  margin-left: 50px;
+}
+
+/* ==========================================================================
+   OpenLab
+   ========================================================================== */
+/* line 88, ../sass/admin.scss */
+#bodyopenlab {
+  background-color: #282828;
+}
+
+/* line 91, ../sass/admin.scss */
+.btnopenlab {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 0.938em;
+  color: white;
+  text-decoration: none;
+  background-color: #ff0080;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "novecento";
+}
+/* line 94, ../sass/admin.scss */
+.btnopenlab:hover {
+  background: #cc0066;
+}
+/* line 98, ../sass/admin.scss */
+.btnopenlab:active {
+  background: #b3005a;
   top: 2px;
 }

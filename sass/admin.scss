@@ -5,61 +5,99 @@
 @import "_variables";
 @import "_mixins";
 
-.wrap{ //Centra el contenido
-	width:980px;
-	margin: 0 auto;
 
-}
-@media screen and (max-width:999px){
-   .wrap{
-      width: auto;
+/* ==========================================================================
+   Generales
+   ========================================================================== */
+   @media screen and (max-width:999px){
+   	.wrap{
+   		width: auto;
+   	}
    }
-}
 
-body{
-	background-color: $magenta;
-}
 
-#login{
-	margin:150px auto;
-	text-align: center;
+   #superadminlogin, #hellologin, #openlablogin{
+   	margin: auto;
+   	position: absolute;
+   	top: 0; left: 0; bottom: 0; right: 0;
+   	height: 266px;
+   	width: 155px;
 
-	p{
-		text-transform: uppercase;
-		font-family: $fontFamily;
-		color: #FFF;
-		margin: 10px 0;
-		
-	}
+   	p{
+   		text-transform: uppercase;
+   		font-family: $fontFamily;
+   		color: #FFF;
+   		margin: 10px 0;
+   		text-align: center;
 
-}
+   	}
 
-.btn {
-	@include inline-block;
-	padding: 10px 20px;
-	margin: 10px 0px;
-	font-size:0.875em;
-	color:#FFF;
-	text-decoration:none;
-	background-color:#2D2D2D;
-	text-transform: uppercase;
-	border: none;
-	cursor: pointer;
-	text-transform: uppercase;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-	font-family: 'novecento';
+   } 
+/* ==========================================================================
+   SuperAdmin
+   ========================================================================== */
 
-	&:hover{
-		background:darken(#2D2D2D, 10);
-	}
+   #bodysuperadmin{
+   	@include bodybg($magenta);
+   }
 
-	&:active{
-		background:darken(#2D2D2D,15);
-		top: 2px;
-	}
 
-}
+
+   .btn {
+   	@include btn(#FFF, #282828, 0px, 'novecento', 10px);
+
+
+   	&:hover{
+   		background:darken(#282828, 10);
+   	}
+
+   	&:active{
+   		background:darken(#282828,15);
+   		top: 2px;
+   	}
+
+   }
+
+/* ==========================================================================
+   Hello Login
+   ========================================================================== */
+
+   #bodyhello{
+   	@include bodybg(#545454);
+   }
+   .btnhello{
+   	@include btn(#FFF, $magenta, 0px, 'novecento', 10px);
+
+   	&:hover{
+   		background:darken($magenta, 10);
+   	}
+
+   	&:active{
+   		background:darken($magenta,15);
+   		top: 2px;
+   	}
+   }
+
+   #hellologin a img{
+   	margin-left: 50px
+   }
+
+/* ==========================================================================
+   OpenLab
+   ========================================================================== */
+   #bodyopenlab{
+   	@include bodybg(#282828);
+   }
+   .btnopenlab{
+   	@include btn(#FFF, $magenta, 0px, 'novecento', 10px);
+
+   	&:hover{
+   		background:darken($magenta, 10);
+   	}
+
+   	&:active{
+   		background:darken($magenta,15);
+   		top: 2px;
+   	}
+   }
+
