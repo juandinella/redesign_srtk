@@ -1,0 +1,65 @@
+@import "compass/reset";
+@import "compass/css3";
+
+
+@import "_variables";
+@import "_mixins";
+
+.wrap{ //Centra el contenido
+	width:980px;
+	margin: 0 auto;
+
+}
+@media screen and (max-width:999px){
+   .wrap{
+      width: auto;
+   }
+}
+
+body{
+	background-color: $magenta;
+}
+
+#login{
+	margin:150px auto;
+	text-align: center;
+
+	p{
+		text-transform: uppercase;
+		font-family: $fontFamily;
+		color: #FFF;
+		margin: 10px 0;
+		
+	}
+
+}
+
+.btn {
+	@include inline-block;
+	padding: 10px 20px;
+	margin: 10px 0px;
+	font-size:0.875em;
+	color:#FFF;
+	text-decoration:none;
+	background-color:#2D2D2D;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	font-family: 'novecento';
+
+	&:hover{
+		background:darken(#2D2D2D, 10);
+	}
+
+	&:active{
+		background:darken(#2D2D2D,15);
+		top: 2px;
+	}
+
+}

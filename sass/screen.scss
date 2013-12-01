@@ -19,6 +19,7 @@
 .wrap{ //Centra el contenido
 	width:980px;
 	margin: 0 auto;
+
 }
 
 .btn {
@@ -471,20 +472,20 @@
       position:relative;
 
       li {
-        display:inline-block;
-        position:relative;
-        width: 32%;
-        text-align: center;
-        margin: 3px;			
-     }
-     img {
-        max-width: 100%;
-        position:relative;
-        display: block;
-     }
+       display:inline-block;
+       position:relative;
+       width: 32%;
+       text-align: center;
+       margin: 3px;			
+    }
+    img {
+       max-width: 100%;
+       position:relative;
+       display: block;
+    }
 
 
-     .overlay {
+    .overlay {
       position:absolute;
       top:0;
       left:0;
@@ -536,22 +537,22 @@
 }
 
 #pagination{
-  padding-bottom: 50px;
-  margin:15px auto;
-  overflow:hidden;
-  text-align: center;
+ padding-bottom: 50px;
+ margin:15px auto;
+ overflow:hidden;
+ text-align: center;
 
-  .prev{
-    float: left;
-    font-family: $fontFamily;
-    padding: 4px 15px;
- }
+ .prev{
+  float: left;
+  font-family: $fontFamily;
+  padding: 4px 15px;
+}
 
- .next{
-    float: right;
-    font-family: $fontFamily;
-    padding: 4px 15px;
- }
+.next{
+  float: right;
+  font-family: $fontFamily;
+  padding: 4px 15px;
+}
 }
 
    /* ==========================================================================
@@ -589,21 +590,21 @@
       position:relative;
 
       li {
-        display:inline-block;
-        position:relative;
-        width: 32%;
-        text-align: center;
-        margin: 3px;        
-     }
-     img {
-        max-width: 100%;
-        position:relative;
-        display: block;
-     }
+       display:inline-block;
+       position:relative;
+       width: 32%;
+       text-align: center;
+       margin: 3px;        
+    }
+    img {
+       max-width: 100%;
+       position:relative;
+       display: block;
+    }
 
-  }
+ }
 
-  #otherarticles{
+ #otherarticles{
    padding-top: 45px;
 
    h2{
@@ -612,7 +613,7 @@
       color: #404040;
    }
 }
-  
+
 
 
 @import "_responsive";
