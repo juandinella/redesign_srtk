@@ -1,5 +1,5 @@
 
-@mixin btn($color, $fondo, $borderradius, $font, $padding){
+@mixin btn($color, $fondo, $borderradius, $font-family, $padding){
 	@include inline-block;
 	@include border-radius($borderradius);
 	padding: $padding;
@@ -16,9 +16,5 @@
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	font-family: $font;
-}
-
-@mixin bodybg($fondo){
-	background-color: $fondo;
+	font-family: $font-family;
 }

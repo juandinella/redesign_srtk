@@ -29,23 +29,32 @@
    		color: #FFF;
    		margin: 10px 0;
    		text-align: center;
+         font-size: 0.875em;
 
    	}
+      input{
+         width: 155px;
+
+      }
+      #loginadmin{
+         text-align: center;
+      }
 
    } 
+
 /* ==========================================================================
    SuperAdmin
    ========================================================================== */
 
    #bodysuperadmin{
-   	@include bodybg($magenta);
+   	background-color: $magenta;
    }
 
 
 
-   .btn {
-   	@include btn(#FFF, #282828, 0px, 'novecento', 10px);
-
+   .btnsuperadmin {
+   	@include btn(#FFF, #282828, 0px, 'novecento', 10px 20px);
+         font-size: 0.875em;
 
    	&:hover{
    		background:darken(#282828, 10);
@@ -59,14 +68,16 @@
    }
 
 /* ==========================================================================
-   Hello Login
+   Hello Admin
    ========================================================================== */
 
    #bodyhello{
-   	@include bodybg(#545454);
+   	background-color: #545454;
    }
+
    .btnhello{
-   	@include btn(#FFF, $magenta, 0px, 'novecento', 10px);
+   	@include btn(#FFF, $magenta, 0px, 'novecento', 10px 20px);
+         font-size: 0.875em;
 
    	&:hover{
    		background:darken($magenta, 10);
@@ -83,13 +94,21 @@
    }
 
 /* ==========================================================================
-   OpenLab
+   OpenLab Admin
    ========================================================================== */
+
    #bodyopenlab{
-   	@include bodybg(#282828);
+   	background-color: #282828;
    }
+
+   #openlablogin{
+      width: 271px;
+
+   }
+
    .btnopenlab{
-   	@include btn(#FFF, $magenta, 0px, 'novecento', 10px);
+   	@include btn(#FFF, $magenta, 0px, 'novecento', 10px 20px);
+         font-size: 0.875em;
 
    	&:hover{
    		background:darken($magenta, 10);
@@ -100,4 +119,3 @@
    		top: 2px;
    	}
    }
-

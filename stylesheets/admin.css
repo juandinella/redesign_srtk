@@ -98,18 +98,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: #FFF;
   margin: 10px 0;
   text-align: center;
+  font-size: 0.875em;
+}
+/* line 35, ../sass/admin.scss */
+#superadminlogin input, #hellologin input, #openlablogin input {
+  width: 155px;
+}
+/* line 39, ../sass/admin.scss */
+#superadminlogin #loginadmin, #hellologin #loginadmin, #openlablogin #loginadmin {
+  text-align: center;
 }
 
 /* ==========================================================================
    SuperAdmin
    ========================================================================== */
-/* line 40, ../sass/admin.scss */
+/* line 49, ../sass/admin.scss */
 #bodysuperadmin {
   background-color: #ff0080;
 }
 
-/* line 46, ../sass/admin.scss */
-.btn {
+/* line 55, ../sass/admin.scss */
+.btnsuperadmin {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -121,7 +130,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 10px 0px;
   font-size: 0.938em;
   color: white;
@@ -136,26 +145,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   font-family: "novecento";
+  font-size: 0.875em;
 }
-/* line 50, ../sass/admin.scss */
-.btn:hover {
+/* line 59, ../sass/admin.scss */
+.btnsuperadmin:hover {
   background: #0e0e0e;
 }
-/* line 54, ../sass/admin.scss */
-.btn:active {
+/* line 63, ../sass/admin.scss */
+.btnsuperadmin:active {
   background: #020202;
   top: 2px;
 }
 
 /* ==========================================================================
-   Hello Login
+   Hello Admin
    ========================================================================== */
-/* line 65, ../sass/admin.scss */
+/* line 74, ../sass/admin.scss */
 #bodyhello {
   background-color: #545454;
 }
 
-/* line 68, ../sass/admin.scss */
+/* line 78, ../sass/admin.scss */
 .btnhello {
   display: -moz-inline-stack;
   display: inline-block;
@@ -168,7 +178,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 10px 0px;
   font-size: 0.938em;
   color: white;
@@ -183,31 +193,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   font-family: "novecento";
+  font-size: 0.875em;
 }
-/* line 71, ../sass/admin.scss */
+/* line 82, ../sass/admin.scss */
 .btnhello:hover {
   background: #cc0066;
 }
-/* line 75, ../sass/admin.scss */
+/* line 86, ../sass/admin.scss */
 .btnhello:active {
   background: #b3005a;
   top: 2px;
 }
 
-/* line 81, ../sass/admin.scss */
+/* line 92, ../sass/admin.scss */
 #hellologin a img {
   margin-left: 50px;
 }
 
 /* ==========================================================================
-   OpenLab
+   OpenLab Admin
    ========================================================================== */
-/* line 88, ../sass/admin.scss */
+/* line 100, ../sass/admin.scss */
 #bodyopenlab {
   background-color: #282828;
 }
 
-/* line 91, ../sass/admin.scss */
+/* line 104, ../sass/admin.scss */
+#openlablogin {
+  width: 271px;
+}
+
+/* line 109, ../sass/admin.scss */
 .btnopenlab {
   display: -moz-inline-stack;
   display: inline-block;
@@ -220,7 +236,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 10px 0px;
   font-size: 0.938em;
   color: white;
@@ -235,12 +251,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   font-family: "novecento";
+  font-size: 0.875em;
 }
-/* line 94, ../sass/admin.scss */
+/* line 113, ../sass/admin.scss */
 .btnopenlab:hover {
   background: #cc0066;
 }
-/* line 98, ../sass/admin.scss */
+/* line 117, ../sass/admin.scss */
 .btnopenlab:active {
   background: #b3005a;
   top: 2px;
