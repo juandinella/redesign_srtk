@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'surattack';
-  src: url('../fonts/surattack.eot?49197475');
-  src: url('../fonts/surattack.eot?49197475#iefix') format('embedded-opentype'),
-       url('../fonts/surattack.woff?49197475') format('woff'),
-       url('../fonts/surattack.ttf?49197475') format('truetype'),
-       url('../fonts/surattack.svg?49197475#surattack') format('svg');
+  src: url('../fonts/surattack.eot?51650897');
+  src: url('../fonts/surattack.eot?51650897#iefix') format('embedded-opentype'),
+       url('../fonts/surattack.woff?51650897') format('woff'),
+       url('../fonts/surattack.ttf?51650897') format('truetype'),
+       url('../fonts/surattack.svg?51650897#surattack') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'surattack';
-    src: url('../font/surattack.svg?49197475#surattack') format('svg');
+    src: url('../font/surattack.svg?51650897#surattack') format('svg');
   }
 }
 */
@@ -24,13 +24,11 @@
   font-style: normal;
   font-weight: normal;
   speak: none;
-
  
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: 0.5em;
-  padding-left: 0.5em;
+  margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
  
@@ -60,6 +58,7 @@
 .icon-floppy-1:before { content: '\e81f'; } /* '' */
 .icon-note:before { content: '\e827'; } /* '' */
 .icon-note-beamed:before { content: '\e828'; } /* '' */
+.icon-search:before { content: '\e832'; } /* '' */
 .icon-mail:before { content: '\e802'; } /* '' */
 .icon-star:before { content: '\e81e'; } /* '' */
 .icon-attach:before { content: '\e801'; } /* '' */
@@ -97,6 +96,7 @@
 .icon-volume-down-1:before { content: '\e823'; } /* '' */
 .icon-github-circled:before { content: '\e81d'; } /* '' */
 .icon-github-circled-1:before { content: '\e82c'; } /* '' */
+.icon-cancel-circled:before { content: '\e833'; } /* '' */
 .icon-download-alt:before { content: '\e82d'; } /* '' */
 .icon-volume-off:before { content: '\e824'; } /* '' */
 .icon-fast-backward-1:before { content: '\e815'; } /* '' */

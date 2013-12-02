@@ -54,10 +54,52 @@
 
    } 
    
+
+   #content{
+      
+      margin-left: 250px;
+      margin-top: 25px;
+
+      p{
+         font-family: $fontFamily;
+         text-transform: uppercase;
+         color: #8C8C8C;
+         font-size: 0.750em;
+         margin-left: 25px;
+         padding-top: 10px;
+
+         input{
+            display: block;
+            background-color: #E2E2E2;
+            border: none;
+            height: 2em;
+            font-size: 1.35em;
+            margin-top: 3px;
+            width: 97%;
+            color: #8C8C8C;
+            font-family: $fontFamily;
+         }
+
+         textarea{
+            background-color: #E2E2E2;
+            border: none;
+            display: block;
+            width: 97%;
+            font-size: 1.35em;
+            color: #8C8C8C;
+            font-family: $fontFamily;
+         }
+      }
+      hr{
+         color: #6B6B6B;
+         width: 95%;
+      }
+   }
+
    .sidebaradmin{
-      float: left;
-      width: 20%;
-      min-width: 225px;
+      top: 0;
+      bottom: 0;
+      width: 250px;
       height: 100%;
       position: absolute;
 
@@ -87,7 +129,12 @@
       display: block;
       margin: 75px auto 0;
       text-align: center;
+
+      img{
+         position: relative;
+      }
    }
+
 
 /* ==========================================================================
    SuperAdmin
@@ -123,7 +170,41 @@
         }           
      }
   }
+   
+   .logosuperadmin{
+      img{
+         width: 53%;
+      }
+   }
 
+   .btnaddimage{
+      @include btn(#FFF, #8C8C8C, 0px, $fontFamily, 10px);
+      font-size: 0.875em;
+
+      &:hover{
+         background: darken(#8C8C8C, 10);
+      }
+      &:active{
+         background: darken(#8C8C8C, 15);
+
+      }
+   }
+
+   .publicar{
+      @include btn(#FFF, $magenta, 0px, $fontFamily, 10px 20px);
+      font-size: 1.15em;
+      float: right;
+      margin-right: 3%;
+
+
+      &:hover{
+         background: darken($magenta, 10);
+      }
+      &:active{
+         background: darken($magenta, 15);
+         
+      }
+   }
 /* ==========================================================================
    Hello Admin
    ========================================================================== */

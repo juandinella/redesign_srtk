@@ -122,19 +122,61 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-align: center;
 }
 
-/* line 57, ../sass/admin.scss */
+/* line 58, ../sass/admin.scss */
+#content {
+  margin-left: 250px;
+  margin-top: 25px;
+}
+/* line 63, ../sass/admin.scss */
+#content p {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  color: #8C8C8C;
+  font-size: 0.750em;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+/* line 71, ../sass/admin.scss */
+#content p input {
+  display: block;
+  background-color: #E2E2E2;
+  border: none;
+  height: 2em;
+  font-size: 1.35em;
+  margin-top: 3px;
+  width: 97%;
+  color: #8C8C8C;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 83, ../sass/admin.scss */
+#content p textarea {
+  background-color: #E2E2E2;
+  border: none;
+  display: block;
+  width: 97%;
+  font-size: 1.35em;
+  color: #8C8C8C;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 93, ../sass/admin.scss */
+#content hr {
+  color: #6B6B6B;
+  width: 95%;
+}
+
+/* line 99, ../sass/admin.scss */
 .sidebaradmin {
-  float: left;
-  width: 20%;
-  min-width: 225px;
+  top: 0;
+  bottom: 0;
+  width: 250px;
   height: 100%;
   position: absolute;
 }
-/* line 64, ../sass/admin.scss */
+/* line 106, ../sass/admin.scss */
 .sidebaradmin ul {
   margin-top: 75px;
 }
-/* line 67, ../sass/admin.scss */
+/* line 109, ../sass/admin.scss */
 .sidebaradmin ul li {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
@@ -142,33 +184,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: 200;
   font-size: 0.875em;
 }
-/* line 74, ../sass/admin.scss */
+/* line 116, ../sass/admin.scss */
 .sidebaradmin ul li a {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 82, ../sass/admin.scss */
+/* line 124, ../sass/admin.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   color: #ff0080;
 }
 
-/* line 86, ../sass/admin.scss */
+/* line 128, ../sass/admin.scss */
 .logoadmin {
   display: block;
   margin: 75px auto 0;
   text-align: center;
 }
+/* line 133, ../sass/admin.scss */
+.logoadmin img {
+  position: relative;
+}
 
 /* ==========================================================================
    SuperAdmin
    ========================================================================== */
-/* line 95, ../sass/admin.scss */
+/* line 142, ../sass/admin.scss */
 #bodysuperadmin {
   background-color: #ff0080;
 }
 
-/* line 100, ../sass/admin.scss */
+/* line 147, ../sass/admin.scss */
 .btnsuperadmin {
   display: -moz-inline-stack;
   display: inline-block;
@@ -198,38 +244,123 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "novecento";
   font-size: 0.875em;
 }
-/* line 104, ../sass/admin.scss */
+/* line 151, ../sass/admin.scss */
 .btnsuperadmin:hover {
   background: #0e0e0e;
 }
-/* line 108, ../sass/admin.scss */
+/* line 155, ../sass/admin.scss */
 .btnsuperadmin:active {
   background: #020202;
   top: 2px;
 }
 
-/* line 115, ../sass/admin.scss */
+/* line 162, ../sass/admin.scss */
 .siderbarsuperadmin {
   background-color: #ff0080;
 }
-/* line 118, ../sass/admin.scss */
+/* line 165, ../sass/admin.scss */
 .siderbarsuperadmin li {
   background-color: #A80265;
 }
-/* line 121, ../sass/admin.scss */
+/* line 168, ../sass/admin.scss */
 .siderbarsuperadmin li:hover {
   background-color: #C1006A;
+}
+
+/* line 175, ../sass/admin.scss */
+.logosuperadmin img {
+  width: 53%;
+}
+
+/* line 180, ../sass/admin.scss */
+.btnaddimage {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 0.938em;
+  color: white;
+  text-decoration: none;
+  background-color: #8c8c8c;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 0.875em;
+}
+/* line 184, ../sass/admin.scss */
+.btnaddimage:hover {
+  background: #737373;
+}
+/* line 187, ../sass/admin.scss */
+.btnaddimage:active {
+  background: #666666;
+}
+
+/* line 193, ../sass/admin.scss */
+.publicar {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  font-size: 0.938em;
+  color: white;
+  text-decoration: none;
+  background-color: #ff0080;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1.15em;
+  float: right;
+  margin-right: 3%;
+}
+/* line 200, ../sass/admin.scss */
+.publicar:hover {
+  background: #cc0066;
+}
+/* line 203, ../sass/admin.scss */
+.publicar:active {
+  background: #b3005a;
 }
 
 /* ==========================================================================
    Hello Admin
    ========================================================================== */
-/* line 130, ../sass/admin.scss */
+/* line 211, ../sass/admin.scss */
 #bodyhello {
   background-color: #545454;
 }
 
-/* line 134, ../sass/admin.scss */
+/* line 215, ../sass/admin.scss */
 .btnhello {
   display: -moz-inline-stack;
   display: inline-block;
@@ -259,34 +390,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "novecento";
   font-size: 0.875em;
 }
-/* line 138, ../sass/admin.scss */
+/* line 219, ../sass/admin.scss */
 .btnhello:hover {
   background: #cc0066;
 }
-/* line 142, ../sass/admin.scss */
+/* line 223, ../sass/admin.scss */
 .btnhello:active {
   background: #b3005a;
   top: 2px;
 }
 
-/* line 148, ../sass/admin.scss */
+/* line 229, ../sass/admin.scss */
 #hellologin a img {
   margin-left: 50px;
 }
 
-/* line 152, ../sass/admin.scss */
+/* line 233, ../sass/admin.scss */
 .sidebarhello {
   background-color: #545454;
 }
-/* line 155, ../sass/admin.scss */
+/* line 236, ../sass/admin.scss */
 .sidebarhello li {
   background-color: #3A3A3A;
 }
-/* line 158, ../sass/admin.scss */
+/* line 239, ../sass/admin.scss */
 .sidebarhello li:hover {
   background-color: #2D2D2D;
 }
-/* line 163, ../sass/admin.scss */
+/* line 244, ../sass/admin.scss */
 .sidebarhello h1 {
   font-family: 'novecento';
   font-size: 1.375em;
@@ -298,17 +429,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    OpenLab Admin
    ========================================================================== */
-/* line 176, ../sass/admin.scss */
+/* line 257, ../sass/admin.scss */
 #bodyopenlab {
   background-color: #282828;
 }
 
-/* line 180, ../sass/admin.scss */
+/* line 261, ../sass/admin.scss */
 #openlablogin {
   width: 271px;
 }
 
-/* line 185, ../sass/admin.scss */
+/* line 266, ../sass/admin.scss */
 .btnopenlab {
   display: -moz-inline-stack;
   display: inline-block;
@@ -338,29 +469,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "novecento";
   font-size: 0.875em;
 }
-/* line 189, ../sass/admin.scss */
+/* line 270, ../sass/admin.scss */
 .btnopenlab:hover {
   background: #cc0066;
 }
-/* line 193, ../sass/admin.scss */
+/* line 274, ../sass/admin.scss */
 .btnopenlab:active {
   background: #b3005a;
   top: 2px;
 }
 
-/* line 199, ../sass/admin.scss */
+/* line 280, ../sass/admin.scss */
 .sidebaropenlab {
   background-color: #282828;
 }
-/* line 202, ../sass/admin.scss */
+/* line 283, ../sass/admin.scss */
 .sidebaropenlab li {
   background-color: #3A3A3A;
 }
-/* line 204, ../sass/admin.scss */
+/* line 285, ../sass/admin.scss */
 .sidebaropenlab li:hover {
   background-color: #2D2D2D;
 }
-/* line 209, ../sass/admin.scss */
+/* line 290, ../sass/admin.scss */
 .sidebaropenlab img {
   width: 85%;
 }
