@@ -13,18 +13,7 @@
 
    </head>
    <body>
-      <section id="content">
-         <div id="contentheader">
-            <h1><i class="icon-chart-bar"></i>Stats</h1>
-            <div class="wrapperstats statsopenlab">
-               <ul>
-                  <li><span>14</span>trabajos</li>
-                  <li><span>23</span>dias desde el ultimo update</li>
-                  <li><span>5600</span>impresiones totales</li>
-               </ul>
-            </div>
-         </div>
-      </section>
+   <div id="container">
       <aside class="sidebaradmin sidebaropenlab">
          <a class="logoadmin" href="#"><img src="img/logo_openlab.svg" alt="Sur.attack"></a>
          <ul>
@@ -36,9 +25,23 @@
             <li><a href=""><i class="icon-list"></i> Mis Categorias</a></li>
             <li><a href=""><i class="icon-tools"></i> Configuracion</a></li>
          </ul>
-      </aside>
-   </body>
-   </html>
-
+      </aside>  
+      <section id="content">
+         <form action="">
+            <p>Titulo <input type="text" name="titulo"></p>
+            <p>Tags <input type="text" name="tags"><span>Los tags van separados por comas</span></p>
+            <p>Caratula<input type="file" name="caratula" id="file_browse"></p>
+            <p>Video<input type="file" name="video" id="file_browse"></p>
+            <p>Link Vimeo o YouTube <input type="url" name="linkvideo"></p>
+            <p>Contenido en Markdown<textarea name="contenido" cols="30" rows="10"></textarea></p>
+            <p>Link utiles<input type="file" name="linksutiles"></p>
+            <p><a class="btnaddimage" href="#">Agregar link</a></p>
+         </form>
+         <hr>
+            <p><a class="publicar" href="#">Publicar</a></p>
+      </section>
+   </div> 
+</body>
+</html>
 
 

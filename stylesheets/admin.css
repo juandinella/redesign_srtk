@@ -81,19 +81,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
 }
 /* line 19, ../sass/admin.scss */
+#container {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 24, ../sass/admin.scss */
 .logologin {
   margin-bottom: 15px;
 }
-/* line 22, ../sass/admin.scss */
+/* line 27, ../sass/admin.scss */
 .logologin h1 {
   font-family: 'novecento';
   font-size: 1.375em;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 31, ../sass/admin.scss */
+/* line 36, ../sass/admin.scss */
 #superadminlogin, #hellologin, #openlablogin {
   margin: auto;
   position: absolute;
@@ -104,7 +110,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 266px;
   width: 155px;
 }
-/* line 38, ../sass/admin.scss */
+/* line 43, ../sass/admin.scss */
 #superadminlogin p, #hellologin p, #openlablogin p {
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -113,21 +119,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-align: center;
   font-size: 0.875em;
 }
-/* line 47, ../sass/admin.scss */
+/* line 52, ../sass/admin.scss */
 #superadminlogin input, #hellologin input, #openlablogin input {
   width: 155px;
 }
-/* line 51, ../sass/admin.scss */
+/* line 56, ../sass/admin.scss */
 #superadminlogin #loginadmin, #hellologin #loginadmin, #openlablogin #loginadmin {
   text-align: center;
 }
 
-/* line 58, ../sass/admin.scss */
+/* line 63, ../sass/admin.scss */
 #content {
   margin-left: 250px;
   margin-top: 25px;
 }
-/* line 63, ../sass/admin.scss */
+/* line 68, ../sass/admin.scss */
 #content p {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
@@ -136,15 +142,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-left: 25px;
   padding-top: 10px;
 }
-/* line 71, ../sass/admin.scss */
+/* line 76, ../sass/admin.scss */
 #content p span {
   float: right;
   font-size: 0.875em;
-  margin-right: 3%;
+  margin-right: 4%;
   padding-top: 1px;
   text-transform: none;
 }
-/* line 79, ../sass/admin.scss */
+/* line 84, ../sass/admin.scss */
 #content p input {
   display: block;
   background-color: #E2E2E2;
@@ -152,11 +158,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 2em;
   font-size: 1.35em;
   margin-top: 3px;
-  width: 97%;
+  width: 96%;
   color: #8C8C8C;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding-left: 5px;
 }
-/* line 91, ../sass/admin.scss */
+/* line 97, ../sass/admin.scss */
 #content p textarea {
   background-color: #E2E2E2;
   border: none;
@@ -166,44 +173,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: #8C8C8C;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-/* line 102, ../sass/admin.scss */
+/* line 108, ../sass/admin.scss */
 #content hr {
   color: #6B6B6B;
-  width: 95%;
+  margin: 25px 3% 25px 25px;
 }
-/* line 107, ../sass/admin.scss */
+/* line 113, ../sass/admin.scss */
 #content h1 {
   text-transform: uppercase;
   font-size: 2em;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-left: 24px;
 }
-/* line 114, ../sass/admin.scss */
+/* line 120, ../sass/admin.scss */
 #content ul {
   margin: 25px;
 }
-/* line 117, ../sass/admin.scss */
+/* line 123, ../sass/admin.scss */
 #content ul li {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
   padding: 8px;
 }
-/* line 122, ../sass/admin.scss */
+/* line 128, ../sass/admin.scss */
 #content ul li [class^="icon-"]:before, #content ul li [class*=" icon-"]:before {
   float: right;
 }
 
-/* line 129, ../sass/admin.scss */
+/* line 135, ../sass/admin.scss */
 .par {
   background-color: #EFEFEF;
 }
 
-/* line 133, ../sass/admin.scss */
+/* line 139, ../sass/admin.scss */
 .impar {
   background-color: #E2E2E2;
 }
 
-/* line 137, ../sass/admin.scss */
+/* line 143, ../sass/admin.scss */
 .sidebaradmin {
   top: 0;
   bottom: 0;
@@ -211,11 +218,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   position: absolute;
 }
-/* line 144, ../sass/admin.scss */
+/* line 150, ../sass/admin.scss */
 .sidebaradmin ul {
   margin-top: 75px;
 }
-/* line 147, ../sass/admin.scss */
+/* line 153, ../sass/admin.scss */
 .sidebaradmin ul li {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
@@ -223,24 +230,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: 200;
   font-size: 0.875em;
 }
-/* line 154, ../sass/admin.scss */
+/* line 160, ../sass/admin.scss */
 .sidebaradmin ul li a {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 162, ../sass/admin.scss */
+/* line 168, ../sass/admin.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   color: #ff0080;
 }
 
-/* line 166, ../sass/admin.scss */
+/* line 172, ../sass/admin.scss */
 .logoadmin {
   display: block;
   margin: 75px auto 0;
   text-align: center;
 }
-/* line 171, ../sass/admin.scss */
+/* line 177, ../sass/admin.scss */
 .logoadmin img {
   position: relative;
 }
@@ -248,12 +255,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    SuperAdmin
    ========================================================================== */
-/* line 180, ../sass/admin.scss */
+/* line 186, ../sass/admin.scss */
 #bodysuperadmin {
   background-color: #ff0080;
 }
 
-/* line 185, ../sass/admin.scss */
+/* line 191, ../sass/admin.scss */
 .btnsuperadmin {
   display: -moz-inline-stack;
   display: inline-block;
@@ -283,35 +290,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "novecento";
   font-size: 0.875em;
 }
-/* line 189, ../sass/admin.scss */
+/* line 195, ../sass/admin.scss */
 .btnsuperadmin:hover {
   background: #0e0e0e;
 }
-/* line 193, ../sass/admin.scss */
+/* line 199, ../sass/admin.scss */
 .btnsuperadmin:active {
   background: #020202;
   top: 2px;
 }
 
-/* line 200, ../sass/admin.scss */
+/* line 206, ../sass/admin.scss */
 .siderbarsuperadmin {
   background-color: #ff0080;
 }
-/* line 203, ../sass/admin.scss */
+/* line 209, ../sass/admin.scss */
 .siderbarsuperadmin li {
   background-color: #A80265;
 }
-/* line 206, ../sass/admin.scss */
+/* line 212, ../sass/admin.scss */
 .siderbarsuperadmin li:hover {
   background-color: #C1006A;
 }
 
-/* line 213, ../sass/admin.scss */
+/* line 219, ../sass/admin.scss */
 .logosuperadmin img {
   width: 53%;
 }
 
-/* line 218, ../sass/admin.scss */
+/* line 224, ../sass/admin.scss */
 .btnaddimage {
   display: -moz-inline-stack;
   display: inline-block;
@@ -340,17 +347,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   transition: all 0.3s;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 0.875em;
+  margin: 10px 0 0 0;
 }
-/* line 222, ../sass/admin.scss */
+/* line 229, ../sass/admin.scss */
 .btnaddimage:hover {
   background: #737373;
 }
-/* line 225, ../sass/admin.scss */
+/* line 232, ../sass/admin.scss */
 .btnaddimage:active {
   background: #666666;
 }
 
-/* line 231, ../sass/admin.scss */
+/* line 238, ../sass/admin.scss */
 .publicar {
   display: -moz-inline-stack;
   display: inline-block;
@@ -380,61 +388,65 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 1.15em;
   float: right;
-  margin-right: 3%;
+  margin: 10px 4% 25px 0;
 }
-/* line 238, ../sass/admin.scss */
+/* line 246, ../sass/admin.scss */
 .publicar:hover {
   background: #cc0066;
 }
-/* line 241, ../sass/admin.scss */
+/* line 249, ../sass/admin.scss */
 .publicar:active {
   background: #b3005a;
 }
 
-/* line 249, ../sass/admin.scss */
-#content h1 {
-  color: #2D2D2D;
+/* line 255, ../sass/admin.scss */
+.wrapperstats {
+  overflow: hidden;
 }
-/* line 252, ../sass/admin.scss */
-#content h1 span {
-  color: #ff0080;
-}
-
 /* line 258, ../sass/admin.scss */
-#wrapperstats {
-  display: inline-block;
-}
-/* line 261, ../sass/admin.scss */
-#wrapperstats ul {
+.wrapperstats ul {
   background-color: #545454;
-  padding: 10px;
+  padding: 15px;
+  width: 950px;
   display: inline-block;
 }
-/* line 266, ../sass/admin.scss */
-#wrapperstats ul li {
+/* line 264, ../sass/admin.scss */
+.wrapperstats ul li {
   background-color: #444444;
   color: #FFF;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 0.875em;
   text-align: center;
-  padding: 10px;
+  margin-left: 10px;
+  height: 155px;
+  width: 286px;
   display: inline-block;
 }
 /* line 275, ../sass/admin.scss */
-#wrapperstats ul li span {
-  font-size: 4em;
+.wrapperstats ul li span {
+  font-size: 5em;
   display: block;
+  margin: 20px;
+}
+
+/* line 285, ../sass/admin.scss */
+#headersuperadmin h1 {
+  color: #2D2D2D;
+}
+/* line 288, ../sass/admin.scss */
+#headersuperadmin h1 span {
+  color: #ff0080;
 }
 
 /* ==========================================================================
    Hello Admin
    ========================================================================== */
-/* line 286, ../sass/admin.scss */
+/* line 296, ../sass/admin.scss */
 #bodyhello {
   background-color: #545454;
 }
 
-/* line 290, ../sass/admin.scss */
+/* line 300, ../sass/admin.scss */
 .btnhello {
   display: -moz-inline-stack;
   display: inline-block;
@@ -464,34 +476,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "novecento";
   font-size: 0.875em;
 }
-/* line 294, ../sass/admin.scss */
+/* line 304, ../sass/admin.scss */
 .btnhello:hover {
   background: #cc0066;
 }
-/* line 298, ../sass/admin.scss */
+/* line 308, ../sass/admin.scss */
 .btnhello:active {
   background: #b3005a;
   top: 2px;
 }
 
-/* line 304, ../sass/admin.scss */
+/* line 314, ../sass/admin.scss */
 #hellologin a img {
   margin-left: 50px;
 }
 
-/* line 308, ../sass/admin.scss */
+/* line 318, ../sass/admin.scss */
 .sidebarhello {
   background-color: #545454;
 }
-/* line 311, ../sass/admin.scss */
+/* line 321, ../sass/admin.scss */
 .sidebarhello li {
   background-color: #3A3A3A;
 }
-/* line 314, ../sass/admin.scss */
+/* line 324, ../sass/admin.scss */
 .sidebarhello li:hover {
   background-color: #2D2D2D;
 }
-/* line 319, ../sass/admin.scss */
+/* line 329, ../sass/admin.scss */
 .sidebarhello h1 {
   font-family: 'novecento';
   font-size: 1.375em;
@@ -500,29 +512,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-align: center;
 }
 
-/* line 331, ../sass/admin.scss */
-#contenthello h1 {
+/* line 341, ../sass/admin.scss */
+#contentheader h1 {
   color: #545454;
 }
-/* line 334, ../sass/admin.scss */
-#contenthello h1 [class^="icon-"]:before, #contenthello h1 [class*=" icon-"]:before {
+/* line 344, ../sass/admin.scss */
+#contentheader h1 [class^="icon-"]:before, #contentheader h1 [class*=" icon-"]:before {
   color: #545454;
+}
+
+/* line 352, ../sass/admin.scss */
+#headerhello h1, #headeropenlab h1 {
+  color: #8C8C8C;
+}
+/* line 355, ../sass/admin.scss */
+#headerhello h1 span, #headeropenlab h1 span {
+  color: #ff0080;
 }
 
 /* ==========================================================================
    OpenLab Admin
    ========================================================================== */
-/* line 345, ../sass/admin.scss */
+/* line 364, ../sass/admin.scss */
 #bodyopenlab {
   background-color: #282828;
 }
 
-/* line 349, ../sass/admin.scss */
+/* line 368, ../sass/admin.scss */
 #openlablogin {
   width: 271px;
 }
 
-/* line 354, ../sass/admin.scss */
+/* line 373, ../sass/admin.scss */
 .btnopenlab {
   display: -moz-inline-stack;
   display: inline-block;
@@ -552,29 +573,64 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "novecento";
   font-size: 0.875em;
 }
-/* line 358, ../sass/admin.scss */
+/* line 377, ../sass/admin.scss */
 .btnopenlab:hover {
   background: #cc0066;
 }
-/* line 362, ../sass/admin.scss */
+/* line 381, ../sass/admin.scss */
 .btnopenlab:active {
   background: #b3005a;
   top: 2px;
 }
 
-/* line 368, ../sass/admin.scss */
+/* line 387, ../sass/admin.scss */
 .sidebaropenlab {
   background-color: #282828;
 }
-/* line 371, ../sass/admin.scss */
+/* line 390, ../sass/admin.scss */
 .sidebaropenlab li {
   background-color: #3A3A3A;
 }
-/* line 373, ../sass/admin.scss */
+/* line 392, ../sass/admin.scss */
 .sidebaropenlab li:hover {
   background-color: #2D2D2D;
 }
-/* line 378, ../sass/admin.scss */
+/* line 397, ../sass/admin.scss */
 .sidebaropenlab img {
   width: 85%;
+}
+
+/* line 402, ../sass/admin.scss */
+#agregaracategoria {
+  margin: 50px 25px;
+  overflow: hidden;
+}
+/* line 406, ../sass/admin.scss */
+#agregaracategoria input {
+  outline: none;
+  background-color: #E2E2E2;
+  text-align: left;
+  color: #8C8C8C;
+  height: 44px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 418, ../sass/admin.scss */
+#agregaracategoria #btnagregarcategoria {
+  margin: 0 -90px;
+  color: #fff;
+  width: 78px;
+  overflow: hidden;
+  text-align: center;
+  height: 35px;
+  background-color: #8C8C8C;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* line 432, ../sass/admin.scss */
+.statsopenlab span {
+  color: #ff0080;
 }

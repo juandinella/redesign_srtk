@@ -11,9 +11,14 @@
    ========================================================================== */
    @media screen and (max-width:999px){
 
-   	.wrap{
+      .wrap{
    		width: auto;
    	}
+   }
+
+   #container{
+      overflow: hidden;
+      position: relative;
    }
 
    .logologin{
@@ -22,7 +27,7 @@
       h1{
          font-family: 'novecento';
          font-size: 1.375em;
-         color: #fff;
+         color: #FFF;
          text-transform: uppercase;
          text-align: center;
       }
@@ -59,7 +64,7 @@
       
       margin-left: 250px;
       margin-top: 25px;
-
+      
       p{
          font-family: $fontFamily;
          text-transform: uppercase;
@@ -71,7 +76,7 @@
          span{
             float: right;
             font-size: 0.875em;
-            margin-right: 3%;
+            margin-right: 4%;
             padding-top: 1px;
             text-transform: none;
          }
@@ -83,9 +88,10 @@
             height: 2em;
             font-size: 1.35em;
             margin-top: 3px;
-            width: 97%;
+            width: 96%;
             color: #8C8C8C;
             font-family: $fontFamily;
+            padding-left: 5px; 
          }
 
          textarea{
@@ -101,7 +107,7 @@
 
       hr{
          color: #6B6B6B;
-         width: 95%;
+         margin: 25px 3% 25px 25px;
       }
 
       h1{
@@ -218,6 +224,7 @@
    .btnaddimage{
       @include btn(#FFF, #8C8C8C, 0px, $fontFamily, 10px);
       font-size: 0.875em;
+      margin: 10px 0 0 0;
 
       &:hover{
          background: darken(#8C8C8C, 10);
@@ -232,7 +239,8 @@
       @include btn(#FFF, $magenta, 0px, $fontFamily, 10px 20px);
       font-size: 1.15em;
       float: right;
-      margin-right: 3%;
+      margin: 10px 4% 25px 0;
+      
 
 
       &:hover{
@@ -244,23 +252,13 @@
       }
    }
 
-   #content{
-
-      h1{
-         color: #2D2D2D;
-
-         span{
-            color: $magenta;
-         }
-      }
-   }
-
-   #wrapperstats{
-      display: inline-block;
+   .wrapperstats{
+      overflow: hidden;
 
       ul{
          background-color: #545454;
-         padding: 10px;
+         padding: 15px;
+         width: 950px;
          display: inline-block;
 
          li{
@@ -269,17 +267,29 @@
             font-family: $fontFamily;
             font-size: 0.875em;
             text-align: center;
-            padding: 10px;
+            margin-left: 10px;
+            height: 155px;
+            width: 286px;
             display: inline-block;
 
             span{
-               font-size: 4em;
+               font-size: 5em;
                display: block;
+               margin: 20px;
             }  
          }
       }
    }
+   
+   #headersuperadmin{
+      h1{
+         color: #2D2D2D;
 
+         span{
+            color: $magenta;
+         }
+      }
+   }
 /* ==========================================================================
    Hello Admin
    ========================================================================== */
@@ -326,7 +336,7 @@
       }
    }
    
-   #contenthello{
+   #contentheader{
 
       h1{
          color: #545454;
@@ -335,10 +345,19 @@
                color: #545454;
          }
       }
-   }   
+   }
 
+   #headerhello, #headeropenlab{
 
+      h1{
+         color: #8C8C8C;
 
+         span{
+            color: $magenta;
+         }
+      }
+
+   }
 /* ==========================================================================
    OpenLab Admin
    ========================================================================== */
@@ -380,3 +399,37 @@
 
    }
 }
+   #agregaracategoria{
+      margin: 50px 25px;
+      overflow: hidden;
+
+      input{
+         outline: none;
+         background-color: #E2E2E2;
+         text-align: left;
+         color: #8C8C8C;
+         height: 44px;
+         width: 100%;
+         border: none;
+         overflow: hidden;
+         font-family: $fontFamily;
+      }
+
+      #btnagregarcategoria{
+         margin: 0 -90px;
+         color: #fff;
+         width: 78px;
+         overflow: hidden;
+         text-align: center;
+         height: 35px;
+         background-color: #8C8C8C;
+         text-transform: uppercase;
+         cursor: pointer;
+      }
+   }
+
+   .statsopenlab{
+      span{
+         color: $magenta;
+      }
+   }
