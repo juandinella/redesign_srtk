@@ -255,6 +255,31 @@
       }
    }
 
+   #wrapperstats{
+      display: inline-block;
+
+      ul{
+         background-color: #545454;
+         padding: 10px;
+         display: inline-block;
+
+         li{
+            background-color: #444444;
+            color: #FFF;
+            font-family: $fontFamily;
+            font-size: 0.875em;
+            text-align: center;
+            padding: 10px;
+            display: inline-block;
+
+            span{
+               font-size: 4em;
+               display: block;
+            }  
+         }
+      }
+   }
+
 /* ==========================================================================
    Hello Admin
    ========================================================================== */
@@ -300,6 +325,19 @@
 
       }
    }
+   
+   #contenthello{
+
+      h1{
+         color: #545454;
+
+         [class^="icon-"]:before, [class*=" icon-"]:before{
+               color: #545454;
+         }
+      }
+   }   
+
+
 
 /* ==========================================================================
    OpenLab Admin

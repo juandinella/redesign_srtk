@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Hello</title>
+	<title>SuperAdmin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="stylesheets/admin.css">
    <link rel="stylesheet" type="text/css" href="stylesheets/surattack.css">
@@ -14,16 +14,17 @@
    </head>
    <body>
       <section id="content">
-         <div id="contenthello">
-            <h1><i class="icon-chart-bar"></i>Stats</h1>
-            <div id="wrapperstats">
-               <ul>
-                  <li><span>14</span>trabajos</li>
-                  <li><span>23</span>dias desde el ultimo update</li>
-                  <li><span>5600</span>impresiones totales</li>
-               </ul>
-            </div>
-         </div>
+         <form action="">
+            <p>Nick <input type="text" name="nick"></p>
+            <p>Bio <input type="text" name="bio"></p>
+            <p>twitter <input type="url" name="tw"></p>
+            <p>YouTube <input type="url" name="yt"></p>
+            <p>Github <input type="url" name="gh"></p>
+            <p>Dribbble <input type="url" name="db"></p>
+            <p>Facebook <input type="url" name="fb"></p>
+         </form>
+         <hr>
+            <p><a class="publicar" href="#">Guardar</a></p>
       </section>
       <aside class="sidebaradmin sidebarhello">
          <a class="logoadmin" href="#"><img src="img/hello.svg" alt="Sur.attack"></a>
@@ -34,6 +35,8 @@
             <li><a href=""><i class="icon-list"></i> Mis Trabajos</a></li>
             <li><a href=""><i class="icon-tools"></i> Configuracion</a></li>
          </ul>
-      </aside>
+      </aside>  
    </body>
    </html>
+
+
