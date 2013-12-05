@@ -598,6 +598,83 @@
    }
 }
 
+/* ==========================================================================
+   Experiments
+   ========================================================================== */
+   #headerexperiments{
+      margin: 0 auto;
+      text-align: center;
+      background-color: $magenta;
+      padding-top: 100px;
 
+      h1{
+         font-size: 3em;
+         font-family: 'novecento';
+         text-transform: uppercase;
+         color: #FFF;
+         margin: 10px 0;
+      }
+   }
+
+   #experiments{
+      
+
+      ul{
+
+         li{
+            padding: 25px 0;
+            
+         }
+      }
+      img{
+         width: 100%;
+         max-width: 100%;
+      }
+
+      hr{
+         color: #FFF;
+
+      }
+   }
+
+
+   .experimentname { 
+      position: relative; 
+      width: 100%; 
+      
+      h2{
+         position: absolute;
+         top: 22%;
+         left: 0;
+         width: 100%;
+         font-size: 3em;
+         line-height: 1.15em;
+
+         span{
+            color: white; 
+            font-family: 'novecento';
+            color: #7F7F7F;  
+            background-color: #FFF;
+            padding: 0 4px;
+
+            
+         }
+      }
+   }
+
+   .experimentbtn{
+      float: right;
+      @include btn(#FFF, #7F7F7F, 3px, $fontFamily, 4px 20px);
+
+      &:hover{
+         background:darken(#7F7F7F, 10);
+      }
+
+      &:active{
+         background:darken(#7F7F7F, 15);
+         top: 2px;
+      }
+
+   }
 
 @import "_responsive";

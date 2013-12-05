@@ -707,6 +707,102 @@ One Work
   color: #404040;
 }
 
+/* ==========================================================================
+   Experiments
+   ========================================================================== */
+/* line 604, ../sass/screen.scss */
+#headerexperiments {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ff0080;
+  padding-top: 100px;
+}
+/* line 610, ../sass/screen.scss */
+#headerexperiments h1 {
+  font-size: 3em;
+  font-family: 'novecento';
+  text-transform: uppercase;
+  color: #FFF;
+  margin: 10px 0;
+}
+
+/* line 624, ../sass/screen.scss */
+#experiments ul li {
+  padding: 25px 0;
+}
+/* line 629, ../sass/screen.scss */
+#experiments img {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 634, ../sass/screen.scss */
+#experiments hr {
+  color: #FFF;
+}
+
+/* line 641, ../sass/screen.scss */
+.experimentname {
+  position: relative;
+  width: 100%;
+}
+/* line 645, ../sass/screen.scss */
+.experimentname h2 {
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 100%;
+  font-size: 3em;
+  line-height: 1.15em;
+}
+/* line 653, ../sass/screen.scss */
+.experimentname h2 span {
+  color: white;
+  font-family: 'novecento';
+  color: #7F7F7F;
+  background-color: #FFF;
+  padding: 0 4px;
+}
+
+/* line 665, ../sass/screen.scss */
+.experimentbtn {
+  float: right;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 20px;
+  margin: 10px 0px;
+  font-size: 0.938em;
+  color: white;
+  text-decoration: none;
+  background-color: #7f7f7f;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 669, ../sass/screen.scss */
+.experimentbtn:hover {
+  background: #666666;
+}
+/* line 673, ../sass/screen.scss */
+.experimentbtn:active {
+  background: #595959;
+  top: 2px;
+}
+
 @media screen and (max-width: 999px) {
   /* line 2, ../sass/_responsive.scss */
   .wrap {
@@ -846,71 +942,82 @@ One Work
   #hello-works ul .overlay .maintitle {
     font-size: 4em;
   }
+
+  /* line 113, ../sass/_responsive.scss */
+  .experimentname h2 {
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 480px) {
-  /* line 116, ../sass/_responsive.scss */
+  /* line 122, ../sass/_responsive.scss */
   #menu {
     float: none;
     margin: 15px auto 0;
     width: 380px;
   }
 
-  /* line 122, ../sass/_responsive.scss */
+  /* line 128, ../sass/_responsive.scss */
   #header {
     margin-bottom: 60px;
   }
 
-  /* line 126, ../sass/_responsive.scss */
+  /* line 132, ../sass/_responsive.scss */
   #openlab, #textocanvas {
     padding-top: 80px;
   }
 
-  /* line 130, ../sass/_responsive.scss */
+  /* line 136, ../sass/_responsive.scss */
   #about ul li {
     width: 50%;
   }
 
-  /* line 133, ../sass/_responsive.scss */
+  /* line 139, ../sass/_responsive.scss */
   #infouser {
     width: 325px;
   }
-  /* line 135, ../sass/_responsive.scss */
+  /* line 141, ../sass/_responsive.scss */
   #infouser input {
     width: 268px;
   }
-  /* line 138, ../sass/_responsive.scss */
+  /* line 144, ../sass/_responsive.scss */
   #infouser #icon-name, #infouser #icon-mail {
     width: 42px;
   }
 
-  /* line 142, ../sass/_responsive.scss */
+  /* line 148, ../sass/_responsive.scss */
   #message {
     width: 325px;
   }
-  /* line 145, ../sass/_responsive.scss */
+  /* line 151, ../sass/_responsive.scss */
   #message #comment {
     float: left;
     width: 268px;
   }
-  /* line 149, ../sass/_responsive.scss */
+  /* line 155, ../sass/_responsive.scss */
   #message #icon-comment {
     width: 42px;
   }
 
-  /* line 153, ../sass/_responsive.scss */
+  /* line 159, ../sass/_responsive.scss */
   .send {
     float: right;
     margin-right: 12%;
   }
 
-  /* line 158, ../sass/_responsive.scss */
+  /* line 164, ../sass/_responsive.scss */
   #works, #openlab, #experiment, #about, #contact h1 {
     padding-left: 4px;
     padding-right: 4px;
   }
+
+  /* line 169, ../sass/_responsive.scss */
+  .experimentname h2 {
+    font-size: 1em;
+    top: 35%;
+  }
 }
 @media screen and (max-width: 360px) {
-  /* line 166, ../sass/_responsive.scss */
+  /* line 178, ../sass/_responsive.scss */
   #about ul li {
     width: auto;
     float: none;

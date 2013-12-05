@@ -108,7 +108,13 @@
 	}
 	#hello-works ul .overlay .maintitle{
 		font-size: 4em;
-	}	
+	}
+	.experimentname{
+		h2{
+			font-size: 2em;
+		}
+	}
+	
 
 }
 
@@ -158,6 +164,12 @@
 	#works, #openlab, #experiment, #about, #contact h1{
 		padding-left: 4px;
 		padding-right: 4px;
+	}
+	.experimentname{
+		h2{
+			font-size: 1em;
+			top: 35%;
+		}
 	}
 
 }
