@@ -1,0 +1,357 @@
+/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'novecento';
+  src: url("../fonts/novecentowide-medium-webfont.eot");
+  src: url("../fonts/novecentowide-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/novecentowide-medium-webfont.woff") format("woff"), url("../fonts/novecentowide-medium-webfont.ttf") format("truetype"), url("../fonts/novecentowide-medium-webfont.svg#novecento_medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'novecento-wide';
+  src: url("../fonts/novecentowide-light-webfont.eot");
+  src: url("../fonts/novecentowide-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/novecentowide-light-webfont.woff") format("woff"), url("../fonts/novecentowide-light-webfont.ttf") format("truetype"), url("../fonts/novecentowide-light-webfont.svg#novecento_widelight") format("svg");
+  font-weight: normal;
+  font-style: light;
+}
+
+/* line 8, ../sass/openlab.scss */
+nav {
+  background-color: #282828;
+  height: 54px;
+  border-bottom: 4px solid #333333;
+}
+/* line 13, ../sass/openlab.scss */
+nav img {
+  margin: 10px 15px;
+  width: 200px;
+}
+/* line 18, ../sass/openlab.scss */
+nav ul {
+  float: right;
+  margin-right: 50px;
+}
+/* line 22, ../sass/openlab.scss */
+nav ul li {
+  float: left;
+  margin-left: 10px;
+  display: inline;
+  vertical-align: middle;
+  line-height: 54px;
+}
+/* line 29, ../sass/openlab.scss */
+nav ul li a {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 0.750em;
+}
+
+/* line 40, ../sass/openlab.scss */
+.wrap {
+  width: 1200px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+/* line 46, ../sass/openlab.scss */
+section {
+  background-color: #F9F9F9;
+  width: 850px;
+  overflow: hidden;
+  float: left;
+  border: 1px solid #E8E8E8;
+}
+
+/* line 54, ../sass/openlab.scss */
+article {
+  display: inline-block;
+  padding: 20px;
+}
+/* line 58, ../sass/openlab.scss */
+article img {
+  float: left;
+  margin-right: 12px;
+}
+/* line 63, ../sass/openlab.scss */
+article ul {
+  display: block;
+}
+/* line 66, ../sass/openlab.scss */
+article ul li {
+  display: inline-block;
+  background-color: #ff0080;
+  padding: 2px 4px 4px 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 72, ../sass/openlab.scss */
+article ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.750em;
+}
+/* line 81, ../sass/openlab.scss */
+article h1 {
+  font-size: 2em;
+  color: rgba(40, 40, 40, 0.9);
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 8px 0;
+}
+/* line 91, ../sass/openlab.scss */
+article p {
+  font-size: 0.8750em;
+  color: #606060;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+/* line 100, ../sass/openlab.scss */
+.date {
+  display: inline-block;
+  float: left;
+  margin-right: 12px;
+  background-color: rgba(40, 40, 40, 0.9);
+  padding: 4px 8px;
+}
+/* line 107, ../sass/openlab.scss */
+.date p {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.188em;
+}
+
+/* line 115, ../sass/openlab.scss */
+.numero {
+  font-family: 'novecento-wide';
+  font-size: 1.375em;
+}
+
+/* line 120, ../sass/openlab.scss */
+.mes {
+  font-family: 'novecento';
+  font-size: 0.750em;
+}
+
+/* line 126, ../sass/openlab.scss */
+aside {
+  overflow: hidden;
+  float: right;
+  width: 300px;
+}
+
+/* line 133, ../sass/openlab.scss */
+#about {
+  background-color: #ff0080;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+/* line 138, ../sass/openlab.scss */
+#about p {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  line-height: 1.1em;
+}
+
+/* line 147, ../sass/openlab.scss */
+#social {
+  background-color: rgba(40, 40, 40, 0.9);
+  padding: 20px;
+  margin-bottom: 25px;
+}
+/* line 152, ../sass/openlab.scss */
+#social ul {
+  margin: 15px auto;
+  text-align: center;
+}
+/* line 156, ../sass/openlab.scss */
+#social ul li {
+  display: inline;
+  text-align: center;
+  margin-right: 3px;
+}
+/* line 163, ../sass/openlab.scss */
+#social h2 {
+  color: #ff0080;
+  font-family: 'novecento';
+  font-size: 1.438em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 175, ../sass/openlab.scss */
+#buscador h2 {
+  color: rgba(40, 40, 40, 0.9);
+  text-decoration: uppercase;
+  font-family: 'novecento';
+  font-size: 1.375em;
+}
+/* line 182, ../sass/openlab.scss */
+#buscador input {
+  background-color: #E2E2E2;
+  width: 100%;
+  border: none;
+  height: 30px;
+  padding-left: 5px;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+/* line 193, ../sass/openlab.scss */
+#categorias {
+  margin-top: 25px;
+}
+/* line 196, ../sass/openlab.scss */
+#categorias h2 {
+  color: #ff0080;
+  text-decoration: uppercase;
+  font-family: 'novecento';
+  font-size: 1.375em;
+  margin-bottom: 10px;
+}
+/* line 204, ../sass/openlab.scss */
+#categorias ul {
+  line-height: 1.1em;
+}
+/* line 207, ../sass/openlab.scss */
+#categorias ul li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 1em;
+}
+/* line 212, ../sass/openlab.scss */
+#categorias ul li a {
+  color: #606060;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+/* line 219, ../sass/openlab.scss */
+#categorias ul li a span {
+  font-weight: normal;
+}
+/* line 224, ../sass/openlab.scss */
+#categorias ul li a:hover {
+  color: #ff0080;
+}
+
+/* line 231, ../sass/openlab.scss */
+#pagination {
+  border-top: 1px solid #D3D3D3;
+  width: 760px;
+  margin: 0 0 10px 72px;
+}
+
+/* line 240, ../sass/openlab.scss */
+.next {
+  float: right;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 20px;
+  margin: 10px 0px;
+  font-size: 0.938em;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(40, 40, 40, 0.9);
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 20px 0;
+}
+/* line 247, ../sass/openlab.scss */
+.next:hover {
+  background: rgba(14, 14, 14, 0.9);
+}
+/* line 251, ../sass/openlab.scss */
+.next:active {
+  background: rgba(2, 2, 2, 0.9);
+}
