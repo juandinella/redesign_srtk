@@ -125,7 +125,7 @@ nav ul li a {
 section {
   background-color: #F9F9F9;
   width: 686px;
-  margin-top: 50px;
+  margin: 50px 0;
   overflow: hidden;
   float: left;
   border: 1px solid #E8E8E8;
@@ -142,24 +142,6 @@ article img {
   margin-right: 12px;
 }
 /* line 69, ../sass/openlab.scss */
-article ul {
-  display: block;
-}
-/* line 72, ../sass/openlab.scss */
-article ul li {
-  display: inline-block;
-  background-color: #ff0080;
-  padding: 0 4px 4px;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-/* line 78, ../sass/openlab.scss */
-article ul li a {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.563em;
-}
-/* line 87, ../sass/openlab.scss */
 article h1 {
   font-size: 1.5em;
   font-weight: bold;
@@ -167,13 +149,14 @@ article h1 {
   text-transform: uppercase;
   display: inline-block;
   margin: 8px 0;
+  color: rgba(40, 40, 40, 0.9);
 }
-/* line 95, ../sass/openlab.scss */
+/* line 78, ../sass/openlab.scss */
 article h1 a {
   text-decoration: none;
   color: rgba(40, 40, 40, 0.9);
 }
-/* line 101, ../sass/openlab.scss */
+/* line 84, ../sass/openlab.scss */
 article p {
   font-size: 0.750em;
   color: #606060;
@@ -182,7 +165,26 @@ article p {
   text-align: justify;
 }
 
-/* line 110, ../sass/openlab.scss */
+/* line 95, ../sass/openlab.scss */
+.tags ul {
+  display: block;
+}
+/* line 98, ../sass/openlab.scss */
+.tags ul li {
+  display: inline-block;
+  background-color: #ff0080;
+  padding: 0 4px 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 104, ../sass/openlab.scss */
+.tags ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.563em;
+}
+
+/* line 115, ../sass/openlab.scss */
 .date {
   display: inline-block;
   float: left;
@@ -190,7 +192,7 @@ article p {
   background-color: rgba(40, 40, 40, 0.9);
   padding: 4px 8px;
 }
-/* line 117, ../sass/openlab.scss */
+/* line 122, ../sass/openlab.scss */
 .date p {
   color: #fff;
   text-transform: uppercase;
@@ -198,19 +200,19 @@ article p {
   line-height: 1em;
 }
 
-/* line 125, ../sass/openlab.scss */
+/* line 130, ../sass/openlab.scss */
 .numero {
   font-family: 'novecento-wide';
   font-size: 1.188em;
 }
 
-/* line 130, ../sass/openlab.scss */
+/* line 135, ../sass/openlab.scss */
 .mes {
   font-family: 'novecento';
   font-size: 0.750em;
 }
 
-/* line 136, ../sass/openlab.scss */
+/* line 141, ../sass/openlab.scss */
 aside {
   overflow: hidden;
   float: right;
@@ -218,14 +220,14 @@ aside {
   margin-top: 50px;
 }
 
-/* line 144, ../sass/openlab.scss */
+/* line 149, ../sass/openlab.scss */
 #about {
   background-color: #ff0080;
   padding: 25px;
   margin-bottom: 20px;
   font-size: 0.938em;
 }
-/* line 150, ../sass/openlab.scss */
+/* line 155, ../sass/openlab.scss */
 #about p {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
@@ -234,24 +236,24 @@ aside {
   line-height: 1.1em;
 }
 
-/* line 159, ../sass/openlab.scss */
+/* line 164, ../sass/openlab.scss */
 #social {
   background-color: rgba(40, 40, 40, 0.9);
   padding: 20px;
   margin-bottom: 20px;
 }
-/* line 164, ../sass/openlab.scss */
+/* line 169, ../sass/openlab.scss */
 #social ul {
   margin: 15px auto;
   text-align: center;
 }
-/* line 168, ../sass/openlab.scss */
+/* line 173, ../sass/openlab.scss */
 #social ul li {
   display: inline;
   text-align: center;
   margin-right: 3px;
 }
-/* line 175, ../sass/openlab.scss */
+/* line 180, ../sass/openlab.scss */
 #social h2 {
   color: #ff0080;
   font-family: 'novecento';
@@ -260,14 +262,14 @@ aside {
   text-align: center;
 }
 
-/* line 187, ../sass/openlab.scss */
+/* line 192, ../sass/openlab.scss */
 #buscador h2 {
   color: rgba(40, 40, 40, 0.9);
   text-decoration: uppercase;
   font-family: 'novecento';
   font-size: 1.375em;
 }
-/* line 194, ../sass/openlab.scss */
+/* line 199, ../sass/openlab.scss */
 #buscador input {
   background-color: #E2E2E2;
   width: 100%;
@@ -278,11 +280,11 @@ aside {
   margin-top: 5px;
 }
 
-/* line 205, ../sass/openlab.scss */
+/* line 210, ../sass/openlab.scss */
 #categorias {
   margin-top: 25px;
 }
-/* line 208, ../sass/openlab.scss */
+/* line 213, ../sass/openlab.scss */
 #categorias h2 {
   color: #ff0080;
   text-decoration: uppercase;
@@ -290,17 +292,17 @@ aside {
   font-size: 1.375em;
   margin-bottom: 10px;
 }
-/* line 216, ../sass/openlab.scss */
+/* line 221, ../sass/openlab.scss */
 #categorias ul {
   line-height: 1.1em;
 }
-/* line 219, ../sass/openlab.scss */
+/* line 224, ../sass/openlab.scss */
 #categorias ul li {
   list-style: disc outside none;
   display: list-item;
   margin-left: 1em;
 }
-/* line 224, ../sass/openlab.scss */
+/* line 229, ../sass/openlab.scss */
 #categorias ul li a {
   color: #606060;
   text-decoration: none;
@@ -308,23 +310,23 @@ aside {
   font-size: 0.875em;
   font-weight: bold;
 }
-/* line 231, ../sass/openlab.scss */
+/* line 236, ../sass/openlab.scss */
 #categorias ul li a span {
   font-weight: normal;
 }
-/* line 236, ../sass/openlab.scss */
+/* line 241, ../sass/openlab.scss */
 #categorias ul li a:hover {
   color: #ff0080;
 }
 
-/* line 243, ../sass/openlab.scss */
+/* line 248, ../sass/openlab.scss */
 #pagination {
   border-top: 1px solid #D3D3D3;
   width: 87%;
   margin: 0 0 10px 72px;
 }
 
-/* line 252, ../sass/openlab.scss */
+/* line 257, ../sass/openlab.scss */
 .next {
   float: right;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -356,11 +358,11 @@ aside {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 20px 0;
 }
-/* line 259, ../sass/openlab.scss */
+/* line 264, ../sass/openlab.scss */
 .next:hover {
   background: rgba(14, 14, 14, 0.9);
 }
-/* line 263, ../sass/openlab.scss */
+/* line 268, ../sass/openlab.scss */
 .next:active {
   background: rgba(2, 2, 2, 0.9);
 }
@@ -368,7 +370,7 @@ aside {
 /* ==========================================================================
    Video
    ========================================================================== */
-/* line 275, ../sass/openlab.scss */
+/* line 280, ../sass/openlab.scss */
 .share {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   display: -moz-inline-stack;
@@ -398,18 +400,118 @@ aside {
   transition: all 0.3s;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 10px 0;
-  font-size: 0.75em;
+  font-size: 0.688em;
 }
-/* line 282, ../sass/openlab.scss */
+/* line 287, ../sass/openlab.scss */
 .share:hover {
   background: rgba(14, 14, 14, 0.9);
 }
-/* line 286, ../sass/openlab.scss */
+/* line 291, ../sass/openlab.scss */
 .share:active {
   background: rgba(2, 2, 2, 0.9);
 }
 
-/* line 292, ../sass/openlab.scss */
+/* line 297, ../sass/openlab.scss */
 hr {
   color: #BABABA;
+}
+
+/* line 301, ../sass/openlab.scss */
+#header {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #BABABA;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+
+/* line 308, ../sass/openlab.scss */
+.video {
+  overflow: hidden;
+  text-align: center;
+  margin: 25px 0 10px;
+  border-bottom: 1px solid #BABABA;
+  padding-bottom: 20px;
+}
+
+/* line 317, ../sass/openlab.scss */
+#post p {
+  font-size: 0.875em;
+}
+
+/* line 324, ../sass/openlab.scss */
+.btndescargas li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  font-size: 0.938em;
+  color: white;
+  text-decoration: none;
+  background-color: #545454;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 10px 5px;
+}
+/* line 330, ../sass/openlab.scss */
+.btndescargas li:hover {
+  background: #3a3a3a;
+}
+/* line 334, ../sass/openlab.scss */
+.btndescargas li:active {
+  background: #2e2e2e;
+}
+/* line 338, ../sass/openlab.scss */
+.btndescargas li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 0.750em;
+}
+
+/* line 347, ../sass/openlab.scss */
+.code {
+  margin: 25px 0;
+}
+
+/* line 351, ../sass/openlab.scss */
+footer {
+  border-top: 1px solid #BABABA;
+  margin-top: 25px;
+  padding-top: 15px;
+}
+/* line 356, ../sass/openlab.scss */
+footer h2 {
+  color: #ff0080;
+  font-family: 'novecento';
+  text-decoration: uppercase;
+  margin-bottom: 1em;
+}
+/* line 363, ../sass/openlab.scss */
+footer li {
+  display: list-style;
+  list-style: disc outside none;
+  margin-left: 1em;
+  padding-top: 2px;
+}
+/* line 369, ../sass/openlab.scss */
+footer li a {
+  color: #606060;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 0.875em;
 }
