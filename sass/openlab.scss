@@ -274,7 +274,7 @@
 
 
 /* ==========================================================================
-   Video
+   Video - Articulos
    ========================================================================== */
 
 	.share {
@@ -316,8 +316,20 @@
    #post{
       p{
          font-size: 0.875em;
+         margin: 25px 0;
+      }
+
+      img{
+         width: 85%;
+         float: none;
+         display: block;
+         margin: 0 auto;
+         padding: 15px;
+         background-color: #EAEAEA;
+         border: 1px solid #D1D1D1; 
       }
    }
+
    
    .btndescargas{
 
@@ -352,25 +364,56 @@
       border-top: 1px solid #BABABA;
       margin-top: 25px;
       padding-top: 15px;
+      clear: both;
 
       h2{
          color: $magenta;
          font-family: 'novecento';
          text-decoration: uppercase;
-         margin-bottom: 1em;
+         margin-bottom: 6px;
       }
 
-      li{
-         display: list-style;
-         list-style: disc outside none;
-         margin-left: 1em;
-         padding-top: 2px;
+      ul{
+         margin-left: 8px;
+      
 
-         a{
-            color: #606060;
-            text-decoration: none;
-            font-family: $fontFamily;
-            font-size: 0.875em;
+         li{
+            display: list-style;
+            list-style: disc outside none;
+            margin-left: 1em;
+            padding-top: 2px;
+
+            a{
+               color: #606060;
+               text-decoration: none;
+               font-family: $fontFamily;
+               font-size: 0.875em;
+            }
          }
+   }  }
+
+
+   figure{
+      position: relative;
+      }
+
+   figcaption {
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 5px; 
+      font-size: 0.75em;
+      left: 45px;
+      margin: 0;
+      padding: 5px 0;
+      text-indent: 5px;
+      font-family: $fontFamily;
+      color: #9B9B9B;
+
+   }
+
+   .caption{
+      img{
+         padding-bottom: 30px;
       }
    }
